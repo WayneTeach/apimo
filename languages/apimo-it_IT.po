@@ -1,0 +1,3811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apimo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-18 20:45+0000\n"
+"PO-Revision-Date: 2022-07-01 16:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: Italiano\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
+"X-Domain: apimo\n"
+
+#: includes/posttype_and_taxonomy.php:1097
+msgid "-1"
+msgstr "-1"
+
+#: includes/posttype_and_taxonomy.php:1128
+msgid "-10"
+msgstr "-10"
+
+#: includes/posttype_and_taxonomy.php:1098
+msgid "-2"
+msgstr "-2"
+
+#: includes/posttype_and_taxonomy.php:1099
+msgid "-3"
+msgstr "-3"
+
+#: includes/posttype_and_taxonomy.php:1100
+msgid "-4"
+msgstr "-4"
+
+#: includes/posttype_and_taxonomy.php:1123
+msgid "-5"
+msgstr "-5"
+
+#: includes/posttype_and_taxonomy.php:1124
+msgid "-6"
+msgstr "-6"
+
+#: includes/posttype_and_taxonomy.php:1125
+msgid "-7"
+msgstr "-7"
+
+#: includes/posttype_and_taxonomy.php:1126
+msgid "-8"
+msgstr "-8"
+
+#: includes/posttype_and_taxonomy.php:1127
+msgid "-9"
+msgstr "-9"
+
+#: templates/archive-property.php:642 templates/archive-property.php:662
+msgid "0"
+msgstr "0"
+
+#: includes/posttype_and_taxonomy.php:1189
+msgid "100th"
+msgstr "100"
+
+#: includes/posttype_and_taxonomy.php:1084
+msgid "10th"
+msgstr "10°"
+
+#: includes/posttype_and_taxonomy.php:1085
+msgid "11th"
+msgstr "11°"
+
+#: includes/posttype_and_taxonomy.php:1086
+msgid "12th"
+msgstr "12°"
+
+#: includes/posttype_and_taxonomy.php:1087
+msgid "13th"
+msgstr "13°"
+
+#: includes/posttype_and_taxonomy.php:1088
+msgid "14th"
+msgstr "14°"
+
+#: includes/posttype_and_taxonomy.php:1089
+msgid "15th"
+msgstr "15°"
+
+#: includes/posttype_and_taxonomy.php:1090
+msgid "16th"
+msgstr "16°"
+
+#: includes/posttype_and_taxonomy.php:1091
+msgid "17th"
+msgstr "17°"
+
+#: includes/posttype_and_taxonomy.php:1092
+msgid "18th"
+msgstr "18°"
+
+#: includes/posttype_and_taxonomy.php:1093
+msgid "19th"
+msgstr "19°"
+
+#: includes/posttype_and_taxonomy.php:1075
+msgid "1st"
+msgstr "1°"
+
+#: includes/posttype_and_taxonomy.php:1094
+msgid "20th"
+msgstr "20°"
+
+#: includes/posttype_and_taxonomy.php:1103
+msgid "21st"
+msgstr "21°"
+
+#: includes/posttype_and_taxonomy.php:1104
+msgid "22nd"
+msgstr "22°"
+
+#: includes/posttype_and_taxonomy.php:1105
+msgid "23rd"
+msgstr "23°"
+
+#: includes/posttype_and_taxonomy.php:1106
+msgid "24th"
+msgstr "24°"
+
+#: includes/posttype_and_taxonomy.php:1107
+msgid "25th"
+msgstr "25°"
+
+#: includes/posttype_and_taxonomy.php:1108
+msgid "26th"
+msgstr "26°"
+
+#: includes/posttype_and_taxonomy.php:1109
+msgid "27th"
+msgstr "27°"
+
+#: includes/posttype_and_taxonomy.php:1110
+msgid "28th"
+msgstr "28°"
+
+#: includes/posttype_and_taxonomy.php:1111
+msgid "29th"
+msgstr "29°"
+
+#: includes/posttype_and_taxonomy.php:1076
+msgid "2nd"
+msgstr "2°"
+
+#: includes/posttype_and_taxonomy.php:1494
+msgid "3,48% IVA incl. dal prezzo di acquisto"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1492
+msgid "3,57% IVA incl. dal prezzo di acquisto"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1112
+msgid "30th"
+msgstr "30°"
+
+#: includes/posttype_and_taxonomy.php:1113
+msgid "31st"
+msgstr "31°"
+
+#: includes/posttype_and_taxonomy.php:1114
+msgid "32nd"
+msgstr "32°"
+
+#: includes/posttype_and_taxonomy.php:1115
+msgid "33rd"
+msgstr "33°"
+
+#: includes/posttype_and_taxonomy.php:1116
+msgid "34th"
+msgstr "34°"
+
+#: includes/posttype_and_taxonomy.php:1117
+msgid "35th"
+msgstr "35°"
+
+#: includes/posttype_and_taxonomy.php:1118
+msgid "36th"
+msgstr "36°"
+
+#: includes/posttype_and_taxonomy.php:1119
+msgid "37th"
+msgstr "37°"
+
+#: includes/posttype_and_taxonomy.php:1120
+msgid "38th"
+msgstr "38°"
+
+#: includes/posttype_and_taxonomy.php:1121
+msgid "39th"
+msgstr "39°"
+
+#: includes/posttype_and_taxonomy.php:1077
+msgid "3rd"
+msgstr "3°"
+
+#: includes/posttype_and_taxonomy.php:1122
+msgid "40th"
+msgstr "40°"
+
+#: includes/posttype_and_taxonomy.php:1129
+msgid "41st"
+msgstr "41°"
+
+#: includes/posttype_and_taxonomy.php:1130
+msgid "42nd"
+msgstr "42°"
+
+#: includes/posttype_and_taxonomy.php:1131
+msgid "43rd"
+msgstr "43°"
+
+#: includes/posttype_and_taxonomy.php:1132
+msgid "44th"
+msgstr "44°"
+
+#: includes/posttype_and_taxonomy.php:1133
+msgid "45th"
+msgstr "45°"
+
+#: includes/posttype_and_taxonomy.php:1134
+msgid "46th"
+msgstr "46°"
+
+#: includes/posttype_and_taxonomy.php:1135
+msgid "47th"
+msgstr "47°"
+
+#: includes/posttype_and_taxonomy.php:1136
+msgid "48th"
+msgstr "48°"
+
+#: includes/posttype_and_taxonomy.php:1137
+msgid "49th"
+msgstr "49°"
+
+#: includes/posttype_and_taxonomy.php:1078
+msgid "4th"
+msgstr "4°"
+
+#: includes/posttype_and_taxonomy.php:1138
+msgid "50th"
+msgstr "50°"
+
+#: includes/posttype_and_taxonomy.php:1139
+msgid "51st"
+msgstr "51°"
+
+#: includes/posttype_and_taxonomy.php:1140
+msgid "52nd"
+msgstr "52°"
+
+#: includes/posttype_and_taxonomy.php:1141
+msgid "53rd"
+msgstr "53°"
+
+#: includes/posttype_and_taxonomy.php:1142
+msgid "54th"
+msgstr "54°"
+
+#: includes/posttype_and_taxonomy.php:1143
+msgid "55th"
+msgstr "55°"
+
+#: includes/posttype_and_taxonomy.php:1144
+msgid "56th"
+msgstr "56°"
+
+#: includes/posttype_and_taxonomy.php:1145
+msgid "57th"
+msgstr "57°"
+
+#: includes/posttype_and_taxonomy.php:1146
+msgid "58th"
+msgstr "58°"
+
+#: includes/posttype_and_taxonomy.php:1147
+msgid "59th"
+msgstr "59°"
+
+#: includes/posttype_and_taxonomy.php:1079
+msgid "5th"
+msgstr "5°"
+
+#: includes/posttype_and_taxonomy.php:1495
+msgid "6,96% IVA incl. dal prezzo di acquisto"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1148
+msgid "60th"
+msgstr "60°"
+
+#: includes/posttype_and_taxonomy.php:1150
+msgid "61st"
+msgstr "61°"
+
+#: includes/posttype_and_taxonomy.php:1151
+msgid "62nd"
+msgstr "62°"
+
+#: includes/posttype_and_taxonomy.php:1152
+msgid "63rd"
+msgstr "63°"
+
+#: includes/posttype_and_taxonomy.php:1153
+msgid "64th"
+msgstr "64°"
+
+#: includes/posttype_and_taxonomy.php:1154
+msgid "65th"
+msgstr "65°"
+
+#: includes/posttype_and_taxonomy.php:1155
+msgid "66th"
+msgstr "66°"
+
+#: includes/posttype_and_taxonomy.php:1156
+msgid "67th"
+msgstr "67°"
+
+#: includes/posttype_and_taxonomy.php:1157
+msgid "68th"
+msgstr "68°"
+
+#: includes/posttype_and_taxonomy.php:1158
+msgid "69th"
+msgstr "69°"
+
+#: includes/posttype_and_taxonomy.php:1080
+msgid "6th"
+msgstr "6°"
+
+#: includes/posttype_and_taxonomy.php:1493
+msgid "7,14% IVA incl. dal prezzo di acquisto"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1159
+msgid "70th"
+msgstr "70°"
+
+#: includes/posttype_and_taxonomy.php:1160
+msgid "71st"
+msgstr "71°"
+
+#: includes/posttype_and_taxonomy.php:1161
+msgid "72nd"
+msgstr "72°"
+
+#: includes/posttype_and_taxonomy.php:1162
+msgid "73rd"
+msgstr "73°"
+
+#: includes/posttype_and_taxonomy.php:1163
+msgid "74th"
+msgstr "74°"
+
+#: includes/posttype_and_taxonomy.php:1164
+msgid "75th"
+msgstr "75°"
+
+#: includes/posttype_and_taxonomy.php:1165
+msgid "76th"
+msgstr "76°"
+
+#: includes/posttype_and_taxonomy.php:1166
+msgid "77th"
+msgstr "77°"
+
+#: includes/posttype_and_taxonomy.php:1167
+msgid "78th"
+msgstr "78°"
+
+#: includes/posttype_and_taxonomy.php:1168
+msgid "79th"
+msgstr "79°"
+
+#: includes/posttype_and_taxonomy.php:1081
+msgid "7th"
+msgstr "7°"
+
+#: includes/posttype_and_taxonomy.php:1169
+msgid "80th"
+msgstr "80°"
+
+#: includes/posttype_and_taxonomy.php:1170
+msgid "81st"
+msgstr "81°"
+
+#: includes/posttype_and_taxonomy.php:1171
+msgid "82nd"
+msgstr "82°"
+
+#: includes/posttype_and_taxonomy.php:1172
+msgid "83rd"
+msgstr "83°"
+
+#: includes/posttype_and_taxonomy.php:1173
+msgid "84th"
+msgstr "84°"
+
+#: includes/posttype_and_taxonomy.php:1174
+msgid "85th"
+msgstr "85°"
+
+#: includes/posttype_and_taxonomy.php:1175
+msgid "86th"
+msgstr "86°"
+
+#: includes/posttype_and_taxonomy.php:1176
+msgid "87th"
+msgstr "87°"
+
+#: includes/posttype_and_taxonomy.php:1177
+msgid "88th"
+msgstr "88°"
+
+#: includes/posttype_and_taxonomy.php:1178
+msgid "89th"
+msgstr "89°"
+
+#: includes/posttype_and_taxonomy.php:1082
+msgid "8th"
+msgstr "8°"
+
+#: includes/posttype_and_taxonomy.php:1179
+msgid "90th"
+msgstr "90°"
+
+#: includes/posttype_and_taxonomy.php:1180
+msgid "91st"
+msgstr "91°"
+
+#: includes/posttype_and_taxonomy.php:1181
+msgid "92nd"
+msgstr "92°"
+
+#: includes/posttype_and_taxonomy.php:1182
+msgid "93rd"
+msgstr "93°"
+
+#: includes/posttype_and_taxonomy.php:1183
+msgid "94th"
+msgstr "94°"
+
+#: includes/posttype_and_taxonomy.php:1184
+msgid "95th"
+msgstr "95°"
+
+#: includes/posttype_and_taxonomy.php:1185
+msgid "96th"
+msgstr "96°"
+
+#: includes/posttype_and_taxonomy.php:1186
+msgid "97th"
+msgstr "97°"
+
+#: includes/posttype_and_taxonomy.php:1187
+msgid "98th"
+msgstr "98°"
+
+#: includes/posttype_and_taxonomy.php:1188
+msgid "99th"
+msgstr "99°"
+
+#: includes/posttype_and_taxonomy.php:1083
+msgid "9th"
+msgstr "9°"
+
+#: includes/posttype_and_taxonomy.php:848
+msgid "Access control"
+msgstr "Controllo accessi"
+
+#: includes/posttype_and_taxonomy.php:1455
+msgid "Accessible toilet"
+msgstr "WC PMR"
+
+#: includes/posttype_and_taxonomy.php:1429
+msgid "Accommodation"
+msgstr "Alloggio"
+
+#: includes/posttype_and_taxonomy.php:9
+msgid "acre"
+msgstr ""
+
+#: templates/archive-property.php:1828
+msgid "Active filter"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:77
+msgid "Add New Areas"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:370
+msgid "Add New Availability"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:286
+msgid "Add New Building Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:433
+msgid "Add New Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:517
+msgid "Add New City"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:119
+msgid "Add New Condition"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:307
+msgid "Add New Construction"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:475
+msgid "Add New Country"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:578
+msgid "Add New Customised Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:538
+msgid "Add New District"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:266
+msgid "Add New Floor"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:224
+msgid "Add New Heating Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:245
+msgid "Add New Heating Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:203
+msgid "Add New Heating Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:391
+msgid "Add New Orientation"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:496
+msgid "Add New Region"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:558
+msgid "Add New Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:412
+msgid "Add New Service"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:98
+msgid "Add New Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:454
+msgid "Add New Sub Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:329
+msgid "Add New Subtype"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:349
+msgid "Add New Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:161
+msgid "Add New Water Hot Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:140
+msgid "Add New Water Hot Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:182
+msgid "Add New Water Waste"
+msgstr ""
+
+#: templates/archive-property.php:792
+msgid "Advance search"
+msgstr "Ricerca avanzata"
+
+#: includes/posttype_and_taxonomy.php:1038
+msgid "Aerated concrete"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1251
+msgid "Aerothermy"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:953
+msgid "Agricultural exploitation"
+msgstr "Azienda agricola"
+
+#: includes/posttype_and_taxonomy.php:1005
+msgid "Agricultural land"
+msgstr "Terreno agricolo"
+
+#: includes/posttype_and_taxonomy.php:807
+msgid "Air filtration system"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:732
+#: includes/posttype_and_taxonomy.php:1207
+msgid "Air-conditioning"
+msgstr "Aria condizionata"
+
+#: includes/posttype_and_taxonomy.php:733
+msgid "Alarm system"
+msgstr "Allarme"
+
+#: includes/posttype_and_taxonomy.php:72
+msgid "All Areas"
+msgstr "Tutte le superfici"
+
+#: includes/posttype_and_taxonomy.php:365
+msgid "All Availability"
+msgstr "Tutte le disponibilità"
+
+#: includes/posttype_and_taxonomy.php:281
+msgid "All Building Type"
+msgstr "Tutti i tipi di edificio"
+
+#: includes/posttype_and_taxonomy.php:428
+msgid "All Category"
+msgstr "Tutte le categorie"
+
+#: includes/posttype_and_taxonomy.php:512
+msgid "All City"
+msgstr "Tutte le città"
+
+#: includes/posttype_and_taxonomy.php:114
+msgid "All Condition"
+msgstr "Tutte le condizioni"
+
+#: includes/posttype_and_taxonomy.php:302
+msgid "All Construction"
+msgstr "Tutte le costruzioni"
+
+#: includes/posttype_and_taxonomy.php:470
+msgid "All Country"
+msgstr "Tutti i paesi"
+
+#: includes/posttype_and_taxonomy.php:573
+msgid "All Customised Tag"
+msgstr "Tutti i custom tag"
+
+#: includes/posttype_and_taxonomy.php:533
+msgid "All District"
+msgstr "Tutti i quartieri"
+
+#: includes/posttype_and_taxonomy.php:261
+msgid "All Floors"
+msgstr "Tutti i piani"
+
+#: includes/posttype_and_taxonomy.php:219
+msgid "All Heating Access"
+msgstr "Tutti i sistemi di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:240
+msgid "All Heating Device"
+msgstr "Tutti i dispositivi di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:198
+msgid "All Heating Type"
+msgstr "Tutti i tipi di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:386
+msgid "All Orientation"
+msgstr "Tutte gli orientamenti"
+
+#: includes/posttype_and_taxonomy.php:491
+msgid "All Regions"
+msgstr "Tutte le province"
+
+#: includes/posttype_and_taxonomy.php:553
+msgid "All Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:407
+msgid "All Service"
+msgstr "Tutti i servizi"
+
+#: includes/posttype_and_taxonomy.php:93
+msgid "All Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:449
+msgid "All Sub Category"
+msgstr "Tutte le sottocategorie"
+
+#: includes/posttype_and_taxonomy.php:324
+msgid "All Subtype"
+msgstr "Tutte le sotto tipologie"
+
+#: includes/posttype_and_taxonomy.php:344
+msgid "All Type"
+msgstr "Tutte le tipologie"
+
+#: includes/posttype_and_taxonomy.php:156
+msgid "All Water Hot Access"
+msgstr "Tutti gli accetti dell’acqua calda"
+
+#: includes/posttype_and_taxonomy.php:135
+msgid "All Water Hot Device"
+msgstr "Tutti gli accetti dell’acqua calda"
+
+#: includes/posttype_and_taxonomy.php:177
+msgid "All Water Waste"
+msgstr "Tutte le acque reflue"
+
+#: includes/posttype_and_taxonomy.php:813
+msgid "Amphibious car"
+msgstr "Veicolo anfibio"
+
+#: includes/posttype_and_taxonomy.php:892
+#: includes/posttype_and_taxonomy.php:919
+#: includes/posttype_and_taxonomy.php:1404
+msgid "Apartment"
+msgstr "Appartamento"
+
+#: includes/posttype_and_taxonomy.php:929
+msgid "Apartment villa"
+msgstr "Appartamento in villa"
+
+#: templates/single_property_style_1.php:397
+msgid "APE"
+msgstr "Prestazione energetica"
+
+#. Name of the plugin
+#: apimo.php:289
+msgid "Apimo"
+msgstr "Apimo"
+
+#: templates/archive-property.php:137 templates/archive-property.php:214
+#: templates/archive-property.php:402 templates/archive-property.php:500
+#: templates/archive-property.php:590 templates/archive-property.php:674
+#: templates/archive-property.php:772 templates/archive-property.php:1172
+msgid "Apply filter"
+msgstr "Applica filtro"
+
+#: templates/archive-property.php:1358
+msgid "Apply order"
+msgstr "Applica ordinamento"
+
+#: includes/posttype_and_taxonomy.php:975
+#: includes/posttype_and_taxonomy.php:1430
+msgid "Arcade"
+msgstr "Portico"
+
+#: includes/posttype_and_taxonomy.php:614 templates/archive-property.php:522
+msgid "Area"
+msgstr "Superficie"
+
+#: includes/posttype_and_taxonomy.php:69 includes/posttype_and_taxonomy.php:70
+#: includes/posttype_and_taxonomy.php:79
+msgid "Areas"
+msgstr "Superfici"
+
+#: includes/posttype_and_taxonomy.php:11
+msgid "ares"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:14
+msgid "arpents"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:974
+#: includes/posttype_and_taxonomy.php:1004
+#: includes/posttype_and_taxonomy.php:1375
+msgid "Attic"
+msgstr "Attico"
+
+#: includes/posttype_and_taxonomy.php:660
+msgid "Auction"
+msgstr "Aste"
+
+#: includes/posttype_and_taxonomy.php:362
+#: includes/posttype_and_taxonomy.php:363
+#: includes/posttype_and_taxonomy.php:372
+#: templates/single_property_style_1.php:331
+msgid "Availability"
+msgstr "Disponibilità"
+
+#: includes/posttype_and_taxonomy.php:805
+msgid "Backup water system"
+msgstr "Sistema Idrico di riserva"
+
+#: includes/posttype_and_taxonomy.php:1391 templates/archive-property.php:932
+msgid "Balcony"
+msgstr "Balcone"
+
+#: includes/posttype_and_taxonomy.php:743
+msgid "Barbecue"
+msgstr "Barbecue"
+
+#: includes/posttype_and_taxonomy.php:689
+msgid "Bare Ownership"
+msgstr "Nuda proprietà"
+
+#: includes/posttype_and_taxonomy.php:930
+#: includes/posttype_and_taxonomy.php:1406
+msgid "Barn"
+msgstr "Fienile"
+
+#: includes/posttype_and_taxonomy.php:1101
+#: includes/posttype_and_taxonomy.php:1388
+msgid "Basement"
+msgstr "Semi interrato"
+
+#: includes/posttype_and_taxonomy.php:961
+msgid "Bastide"
+msgstr "Casale"
+
+#: includes/posttype_and_taxonomy.php:962
+msgid "Bastidon"
+msgstr "Casa di campagna"
+
+#: templates/single_property_style_1.php:195
+#: templates/single_property_style_1.php:387
+msgid "Bath"
+msgstr "Bagno"
+
+#: includes/posttype_and_taxonomy.php:616
+#: includes/posttype_and_taxonomy.php:1356
+msgid "Bathroom"
+msgstr "Bagno"
+
+#: includes/posttype_and_taxonomy.php:1389
+msgid "Bathroom / Lavatory"
+msgstr "Bagno/WC"
+
+#: templates/template_archive_block.php:427
+#: templates/template_archive_block.php:505 templates/archive-property.php:656
+msgid "Baths"
+msgstr "Bagni"
+
+#: includes/posttype_and_taxonomy.php:814
+msgid "Beach games"
+msgstr "Giochi da spiaggia"
+
+#: includes/posttype_and_taxonomy.php:987
+msgid "Beach house"
+msgstr "Casa sulla spiaggia"
+
+#: includes/posttype_and_taxonomy.php:970
+msgid "Bed and breakfast"
+msgstr "Bed and breakfast"
+
+#: includes/posttype_and_taxonomy.php:942
+#: includes/posttype_and_taxonomy.php:1349
+msgid "Bedroom"
+msgstr "Camera"
+
+#: templates/archive-property.php:1286
+msgid "Bedrooms descending"
+msgstr "Numero di camere da letto decrescente"
+
+#: templates/archive-property.php:1278
+msgid "Bedrooms increasing"
+msgstr "Numero di camere da letto crescente"
+
+#: includes/posttype_and_taxonomy.php:849
+#: includes/posttype_and_taxonomy.php:988
+msgid "Berth"
+msgstr "Posto barca"
+
+#: includes/posttype_and_taxonomy.php:1408
+msgid "Bike storage room"
+msgstr "Locale bici"
+
+#: includes/posttype_and_taxonomy.php:815
+msgid "Bikes"
+msgstr "Biciclette"
+
+#: includes/posttype_and_taxonomy.php:23
+msgid "Bimonthly"
+msgstr "Bimestrale"
+
+#: includes/posttype_and_taxonomy.php:899
+msgid "Boat"
+msgstr "Imbarcazione"
+
+#: includes/posttype_and_taxonomy.php:1442
+msgid "Boathouse"
+msgstr "Darsena"
+
+#: includes/posttype_and_taxonomy.php:1267
+msgid "Boiler"
+msgstr "Caldaia"
+
+#: includes/posttype_and_taxonomy.php:979
+msgid "Borey"
+msgstr "Borey"
+
+#: includes/posttype_and_taxonomy.php:799
+msgid "Bowling green"
+msgstr "Bowling green"
+
+#: includes/posttype_and_taxonomy.php:973
+#: includes/posttype_and_taxonomy.php:1433
+msgid "Box"
+msgstr "Box"
+
+#: includes/posttype_and_taxonomy.php:1023
+msgid "Brick"
+msgstr "Mattone"
+
+#: includes/posttype_and_taxonomy.php:897
+#: includes/posttype_and_taxonomy.php:938
+#: includes/posttype_and_taxonomy.php:1052
+msgid "Building"
+msgstr "Palazzo/Edificio"
+
+#: includes/posttype_and_taxonomy.php:916
+msgid "Building land"
+msgstr "Terreno edificabile"
+
+#: includes/posttype_and_taxonomy.php:278
+#: includes/posttype_and_taxonomy.php:279
+#: includes/posttype_and_taxonomy.php:288
+msgid "Building Type"
+msgstr "Tipo di edificio"
+
+#: includes/posttype_and_taxonomy.php:676
+msgid "Bulk sale"
+msgstr "Vendita in blocco"
+
+#: includes/posttype_and_taxonomy.php:986
+msgid "Bungalow"
+msgstr "Bungalow"
+
+#: includes/posttype_and_taxonomy.php:895
+#: includes/posttype_and_taxonomy.php:922
+msgid "Business"
+msgstr "Negozio / Locale commerciale"
+
+#: includes/posttype_and_taxonomy.php:948
+msgid "Business assets"
+msgstr "Avviamento"
+
+#: includes/posttype_and_taxonomy.php:834
+msgid "Business center"
+msgstr "Centro d'affari"
+
+#: includes/posttype_and_taxonomy.php:1405
+msgid "Cabin"
+msgstr "Capanna"
+
+#: includes/posttype_and_taxonomy.php:1426
+msgid "Cafeteria"
+msgstr "Mensa"
+
+#: includes/posttype_and_taxonomy.php:816
+msgid "Canoe"
+msgstr "Canoe"
+
+#: includes/posttype_and_taxonomy.php:746
+msgid "Car port"
+msgstr "Parcheggio coperto"
+
+#: includes/posttype_and_taxonomy.php:735
+msgid "Caretaker"
+msgstr "Guardiano/Custode"
+
+#: includes/posttype_and_taxonomy.php:747
+msgid "Caretaker house"
+msgstr "Casa del custode"
+
+#: includes/posttype_and_taxonomy.php:1434
+msgid "Carnotzet"
+msgstr "Taverna"
+
+#: includes/posttype_and_taxonomy.php:936
+msgid "Carpark"
+msgstr "Garage"
+
+#: includes/posttype_and_taxonomy.php:1475
+msgid "Casa studenti"
+msgstr "Student house"
+
+#: includes/posttype_and_taxonomy.php:921
+msgid "Castle"
+msgstr "Castello"
+
+#: includes/posttype_and_taxonomy.php:968
+msgid "Catamaran"
+msgstr "Catamarano"
+
+#: includes/posttype_and_taxonomy.php:425
+#: includes/posttype_and_taxonomy.php:426
+#: includes/posttype_and_taxonomy.php:435
+#: templates/single_property_style_1.php:304 templates/archive-property.php:77
+#: templates/archive-property.php:101
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/posttype_and_taxonomy.php:771
+msgid "CD Player"
+msgstr "Lettore CD"
+
+#: includes/posttype_and_taxonomy.php:954
+#: includes/posttype_and_taxonomy.php:1354 templates/archive-property.php:1060
+msgid "Cellar"
+msgstr "Cantina"
+
+#: includes/posttype_and_taxonomy.php:901
+msgid "Cellar / Box"
+msgstr "Cantina / Box"
+
+#: includes/posttype_and_taxonomy.php:1208
+msgid "Central"
+msgstr "Centrale"
+
+#: includes/posttype_and_taxonomy.php:749
+msgid "Central vacuum system"
+msgstr "Aspiratore centralizzato"
+
+#: includes/posttype_and_taxonomy.php:946
+msgid "Chalet"
+msgstr "Chalet"
+
+#: includes/posttype_and_taxonomy.php:1246
+msgid "Charcoal"
+msgstr "Carbone"
+
+#: includes/posttype_and_taxonomy.php:1452
+msgid "Children's room"
+msgstr "Cameretta"
+
+#: includes/posttype_and_taxonomy.php:1037
+msgid "Cinder block"
+msgstr "Mattoni di. Cemento"
+
+#: includes/posttype_and_taxonomy.php:509
+#: includes/posttype_and_taxonomy.php:510
+#: includes/posttype_and_taxonomy.php:519
+#: includes/posttype_and_taxonomy.php:618 templates/archive-property.php:328
+msgid "City"
+msgstr "Città"
+
+#: includes/posttype_and_taxonomy.php:854
+msgid "Civil defense bunker"
+msgstr "Rifugio"
+
+#: includes/posttype_and_taxonomy.php:1384
+msgid "Closet"
+msgstr "Sala armadi"
+
+#: includes/posttype_and_taxonomy.php:778
+msgid "Clothes dryer"
+msgstr "Asciugatrice"
+
+#. Author of the plugin
+msgid "APIMO"
+msgstr "APIMO"
+
+#: includes/posttype_and_taxonomy.php:783
+msgid "Coffeemaker"
+msgstr "Macchina da caffè"
+
+#: includes/posttype_and_taxonomy.php:1282
+msgid "Collective"
+msgstr "Centralizzato"
+
+#: includes/posttype_and_taxonomy.php:993
+msgid "Commercial land"
+msgstr "Terreno commerciale"
+
+#: includes/posttype_and_taxonomy.php:809
+msgid "Commercial services"
+msgstr "Servizi Commerciali"
+
+#: includes/posttype_and_taxonomy.php:1225
+msgid "Common"
+msgstr "Centralizzato"
+
+#: includes/posttype_and_taxonomy.php:789
+msgid "Common laundry"
+msgstr "Lavanderia comune"
+
+#: includes/posttype_and_taxonomy.php:963
+msgid "Company"
+msgstr "Impresa/Azienda"
+
+#: templates/archive-property.php:636
+msgid "Comparment"
+msgstr "Locali"
+
+#: templates/archive-property.php:1302
+msgid "Comparment descending"
+msgstr "Numero di locali decrescente"
+
+#: templates/archive-property.php:1294
+msgid "Comparment increasing"
+msgstr "Numero di locali crescente"
+
+#: includes/posttype_and_taxonomy.php:793
+msgid "Computer network"
+msgstr "Rete informatica"
+
+#: includes/posttype_and_taxonomy.php:840
+msgid "Concierge"
+msgstr "Portineria"
+
+#: includes/posttype_and_taxonomy.php:1024
+msgid "Concrete"
+msgstr "Calcestruzzo"
+
+#: includes/posttype_and_taxonomy.php:1030
+msgid "Concrete block"
+msgstr "Blocco di calcestruzzo"
+
+#: includes/posttype_and_taxonomy.php:111
+#: includes/posttype_and_taxonomy.php:112
+#: includes/posttype_and_taxonomy.php:121
+msgid "Condition"
+msgstr "Condizione"
+
+#: templates/single_property_style_1.php:323
+msgid "Conditions"
+msgstr "Condizioni"
+
+#: includes/posttype_and_taxonomy.php:980
+msgid "Condo"
+msgstr "Condominio"
+
+#: includes/posttype_and_taxonomy.php:836
+msgid "Condominium garden"
+msgstr "Giardino condominiale"
+
+#: includes/posttype_and_taxonomy.php:853
+msgid "Condominium pool"
+msgstr "Piscina condominiale"
+
+#: includes/posttype_and_taxonomy.php:798
+msgid "Connected thermostat"
+msgstr "Termostato connesso"
+
+#: includes/posttype_and_taxonomy.php:299
+#: includes/posttype_and_taxonomy.php:300
+#: includes/posttype_and_taxonomy.php:309
+msgid "Construction"
+msgstr "Coatruzione"
+
+#: templates/single_property_style_1.php:316
+msgid "Construction year"
+msgstr "Anno di costruzione"
+
+#: includes/posttype_and_taxonomy.php:1203
+msgid "Convector"
+msgstr "Convettore"
+
+#: includes/posttype_and_taxonomy.php:1446
+msgid "Corner kitchen"
+msgstr "Angolo cottura"
+
+#: includes/posttype_and_taxonomy.php:1360
+msgid "Corridor"
+msgstr "Disimpegno"
+
+#: includes/posttype_and_taxonomy.php:941
+msgid "Cottage"
+msgstr "Rustico"
+
+#: includes/posttype_and_taxonomy.php:467
+#: includes/posttype_and_taxonomy.php:468
+#: includes/posttype_and_taxonomy.php:477 templates/archive-property.php:256
+msgid "Country"
+msgstr "Paese"
+
+#: includes/posttype_and_taxonomy.php:1385
+msgid "Courtyard"
+msgstr "Cortile"
+
+#: includes/posttype_and_taxonomy.php:682
+msgid "Coworking"
+msgstr "Coworking"
+
+#: includes/posttype_and_taxonomy.php:1001
+msgid "Craft Workshop"
+msgstr "Laboratorio"
+
+#: includes/posttype_and_taxonomy.php:1456
+msgid "Craft workshop"
+msgstr "Laboratorio"
+
+#: includes/posttype_and_taxonomy.php:745
+msgid "Crawl space"
+msgstr "Pavimento flottante"
+
+#: templates/archive-property.php:724
+msgid "created at"
+msgstr "Data di creazione"
+
+#: templates/archive-property.php:1318
+msgid "Creation date: from newest to oldest"
+msgstr "Creazione: dal più recente al più vecchio"
+
+#: templates/archive-property.php:1310
+msgid "Creation date: from oldest to newest"
+msgstr "Creazione: dal più vecchio al più recente"
+
+#: includes/posttype_and_taxonomy.php:1372
+msgid "Cupboard"
+msgstr "Armadio a muro"
+
+#: includes/posttype_and_taxonomy.php:571
+#: includes/posttype_and_taxonomy.php:580
+msgid "Customised Tag"
+msgstr "Tag customizzato"
+
+#: includes/posttype_and_taxonomy.php:570
+msgid "Customised Tags"
+msgstr "Tag customizzati"
+
+#: templates/archive-property.php:760
+msgid "Date"
+msgstr "Data"
+
+#: templates/archive-property.php:694
+msgid "Dates"
+msgstr "Date"
+
+#: templates/single_property_style_1.php:549
+msgid "Dato non disponibile"
+msgstr "Dato non disponibile"
+
+#: includes/posttype_and_taxonomy.php:18
+msgid "Day"
+msgstr "Giorno"
+
+#: templates/archive-property.php:1270
+msgid "Descending area"
+msgstr "Superficie decrescente"
+
+#: templates/archive-property.php:1254
+msgid "Descending price"
+msgstr "Prezzo decrescente"
+
+#: templates/single_property_style_1.php:289
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/posttype_and_taxonomy.php:997
+msgid "Detached house"
+msgstr "Bifamiliare"
+
+#: templates/single_property_style_1.php:299
+msgid "Details"
+msgstr "Dettagli"
+
+#: includes/posttype_and_taxonomy.php:658
+#: includes/posttype_and_taxonomy.php:686
+msgid "Development"
+msgstr "Costruzione"
+
+#: includes/posttype_and_taxonomy.php:788
+msgid "Digicode"
+msgstr "Apertura con codice"
+
+#: includes/posttype_and_taxonomy.php:1031
+msgid "Dimension stone"
+msgstr "Dimensioni Pietra"
+
+#: includes/posttype_and_taxonomy.php:1370
+msgid "Dining room"
+msgstr "Sala da pranzo"
+
+#: includes/posttype_and_taxonomy.php:731
+msgid "Disabled access"
+msgstr "Accesso per disabili"
+
+#: includes/posttype_and_taxonomy.php:1393
+msgid "Discothèque"
+msgstr "Discoteca"
+
+#: includes/posttype_and_taxonomy.php:760
+msgid "Dishwasher"
+msgstr "Lavastoviglie"
+
+#: includes/posttype_and_taxonomy.php:530
+#: includes/posttype_and_taxonomy.php:531
+#: includes/posttype_and_taxonomy.php:540 templates/archive-property.php:366
+msgid "District"
+msgstr "Quartiere"
+
+#: includes/posttype_and_taxonomy.php:1227
+msgid "District heating"
+msgstr "Teleriscaldamento"
+
+#: includes/posttype_and_taxonomy.php:817
+msgid "Diving"
+msgstr "Diving"
+
+#: includes/metabox.php:110
+msgid "Do you want to publish the address?"
+msgstr "Vuoi pubblicare l’indirizzo?"
+
+#: apimo.php:292
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: includes/posttype_and_taxonomy.php:1056
+msgid "Domain"
+msgstr "Tenuta"
+
+#: includes/posttype_and_taxonomy.php:833
+msgid "Double flow ventilation"
+msgstr "Ventilazione doppio flusso"
+
+#: includes/posttype_and_taxonomy.php:736
+msgid "Double glazing"
+msgstr "Doppi vetri"
+
+#: includes/posttype_and_taxonomy.php:859
+msgid "Double glazing metal"
+msgstr "Doppi vetri metallo"
+
+#: includes/posttype_and_taxonomy.php:858
+msgid "Double glazing plastic"
+msgstr "Doppi vetri plastica"
+
+#: includes/posttype_and_taxonomy.php:1420
+msgid "Double reception room"
+msgstr "Doppia reception "
+
+#: includes/posttype_and_taxonomy.php:794
+msgid "Dropped ceiling"
+msgstr "Controsoffitto"
+
+#: includes/posttype_and_taxonomy.php:923
+msgid "Duplex"
+msgstr "Duplex"
+
+#: includes/posttype_and_taxonomy.php:770
+msgid "DVD Player"
+msgstr "Lettore DVD"
+
+#: includes/posttype_and_taxonomy.php:709
+msgid "East"
+msgstr "Est"
+
+#: includes/posttype_and_taxonomy.php:1443
+msgid "Eat-in kitchen"
+msgstr "Cucina abitabile"
+
+#: includes/posttype_and_taxonomy.php:75
+msgid "Edit Areas"
+msgstr "Modifica superfici"
+
+#: includes/posttype_and_taxonomy.php:368
+msgid "Edit Availability"
+msgstr "Modifica disponibilità"
+
+#: includes/posttype_and_taxonomy.php:284
+msgid "Edit Building Type"
+msgstr "Modifica tipo di edificio"
+
+#: includes/posttype_and_taxonomy.php:431
+msgid "Edit Category"
+msgstr "Modifica categoria"
+
+#: includes/posttype_and_taxonomy.php:515
+msgid "Edit City"
+msgstr "Modifica Città"
+
+#: includes/posttype_and_taxonomy.php:117
+msgid "Edit Condition"
+msgstr "Modifica condizione"
+
+#: includes/posttype_and_taxonomy.php:305
+msgid "Edit Construction"
+msgstr "Modifica costruzione"
+
+#: includes/posttype_and_taxonomy.php:473
+msgid "Edit Country"
+msgstr "Modifica Paese"
+
+#: includes/posttype_and_taxonomy.php:576
+msgid "Edit Customised Tag"
+msgstr "Modifica Tag customizzati"
+
+#: includes/posttype_and_taxonomy.php:536
+msgid "Edit District"
+msgstr "Modifica quartieri"
+
+#: includes/posttype_and_taxonomy.php:264
+msgid "Edit Floor"
+msgstr "Modifica piani"
+
+#: includes/posttype_and_taxonomy.php:222
+msgid "Edit Heating Access"
+msgstr "Modifica sistemi di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:243
+msgid "Edit Heating Device"
+msgstr "Modifica dispositivi di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:201
+msgid "Edit Heating Type"
+msgstr "Modifica tipo dii riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:389
+msgid "Edit Orientation"
+msgstr "Modifica orientamento"
+
+#: includes/posttype_and_taxonomy.php:494
+msgid "Edit Region"
+msgstr "Modifica Provincia"
+
+#: includes/posttype_and_taxonomy.php:556
+msgid "Edit Repository Tag"
+msgstr "Modifica repository tag"
+
+#: includes/posttype_and_taxonomy.php:410
+msgid "Edit Service"
+msgstr "Modifica servizi"
+
+#: includes/posttype_and_taxonomy.php:96
+msgid "Edit Standing"
+msgstr "Modifica classe immobile"
+
+#: includes/posttype_and_taxonomy.php:452
+msgid "Edit Sub Category"
+msgstr "Modifica sotto categorie"
+
+#: includes/posttype_and_taxonomy.php:327
+msgid "Edit Subtype"
+msgstr "Modifica sotto tipologie"
+
+#: includes/posttype_and_taxonomy.php:347
+msgid "Edit Type"
+msgstr "Modifica tipologie"
+
+#: includes/posttype_and_taxonomy.php:159
+msgid "Edit Water Hot Access"
+msgstr "Modifica accesso acqua calda"
+
+#: includes/posttype_and_taxonomy.php:138
+msgid "Edit Water Hot Device"
+msgstr "Modifica accesso acqua calda"
+
+#: includes/posttype_and_taxonomy.php:180
+msgid "Edit Water Waste"
+msgstr "Modifica acque reflue"
+
+#: includes/posttype_and_taxonomy.php:1243
+msgid "Electric"
+msgstr "Elettrico"
+
+#: includes/posttype_and_taxonomy.php:752
+msgid "Electric awnings"
+msgstr "Tapparelle elettriche"
+
+#: includes/posttype_and_taxonomy.php:843
+msgid "Electric car terminal"
+msgstr "Terminal per auto elettriche"
+
+#: includes/posttype_and_taxonomy.php:744
+msgid "Electric gate"
+msgstr "Cancello elettrico"
+
+#: includes/posttype_and_taxonomy.php:750
+msgid "Electric shutters"
+msgstr "Serrande elettriche"
+
+#: templates/single_property_style_1.php:566
+msgid "Energy performance"
+msgstr "Prestazione energetica"
+
+#: includes/posttype_and_taxonomy.php:759
+msgid "Engine generator"
+msgstr "Generatore di corrente"
+
+#: includes/posttype_and_taxonomy.php:1021
+msgid "Engineered wood"
+msgstr ""
+
+#: includes/metabox.php:155
+msgid "Enter Agency : "
+msgstr "Inserisci Agenzia"
+
+#: includes/metabox.php:221
+msgid "Enter Area total : "
+msgstr "Inserisci area totale"
+
+#: includes/metabox.php:204
+msgid "Enter Area unit : "
+msgstr "Inserisci unità dell’area"
+
+#: includes/metabox.php:217
+msgid "Enter Area value : "
+msgstr "Inserisci valore area"
+
+#: includes/metabox.php:225
+msgid "Enter Area weighted : "
+msgstr ""
+
+#: includes/metabox.php:283
+msgid "Enter Available At : "
+msgstr ""
+
+#: includes/metabox.php:191
+msgid "Enter Badrooms : "
+msgstr ""
+
+#: includes/metabox.php:179
+msgid "Enter Block Name : "
+msgstr ""
+
+#: includes/metabox.php:245
+msgid "Enter Construction Renovation Cost : "
+msgstr ""
+
+#: includes/metabox.php:241
+msgid "Enter Construction Renovation year : "
+msgstr ""
+
+#: includes/metabox.php:237
+msgid "Enter Construction year : "
+msgstr ""
+
+#: includes/metabox.php:296
+msgid "Enter Create Date : "
+msgstr ""
+
+#: includes/metabox.php:287
+msgid "Enter Delivered At : "
+msgstr ""
+
+#: includes/metabox.php:274
+msgid "Enter Floor Levels : "
+msgstr ""
+
+#: includes/metabox.php:270
+msgid "Enter Floor Value : "
+msgstr ""
+
+#: includes/metabox.php:278
+msgid "Enter Floors : "
+msgstr ""
+
+#: includes/metabox.php:291
+msgid "Enter ID : "
+msgstr ""
+
+#: includes/metabox.php:183
+msgid "Enter Lot Reference: "
+msgstr ""
+
+#: includes/metabox.php:233
+msgid "Enter Price Currency : "
+msgstr ""
+
+#: includes/metabox.php:199
+msgid "Enter Property Price : "
+msgstr ""
+
+#: includes/metabox.php:262
+msgid "Enter Residence Fees: "
+msgstr ""
+
+#: includes/metabox.php:266
+msgid "Enter Residence Lots : "
+msgstr ""
+
+#: includes/metabox.php:249
+msgid "Enter Residence Period: "
+msgstr ""
+
+#: includes/metabox.php:187
+msgid "Enter Rooms : "
+msgstr ""
+
+#: includes/metabox.php:195
+msgid "Enter Sleeps : "
+msgstr ""
+
+#: includes/metabox.php:301
+msgid "Enter Update Date : "
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1363
+msgid "Entrance"
+msgstr "Ingresso"
+
+#: includes/posttype_and_taxonomy.php:969
+msgid "Equestrian estate"
+msgstr "Centro equestre"
+
+#: includes/posttype_and_taxonomy.php:1444
+msgid "Equipped kitchen"
+msgstr "Cucina arredata"
+
+#: includes/posttype_and_taxonomy.php:684
+msgid "Event"
+msgstr "Locale per eventi"
+
+#: includes/posttype_and_taxonomy.php:1316
+msgid "Excellent condition"
+msgstr "Ottime condizioni"
+
+#: includes/posttype_and_taxonomy.php:1392
+msgid "Exercise room"
+msgstr "Palestra"
+
+#: templates/single_property_style_1.php:226
+msgid "External areas"
+msgstr "Area esterna"
+
+#: includes/posttype_and_taxonomy.php:847
+msgid "Extraction air duct"
+msgstr "Canna fumaria"
+
+#: includes/posttype_and_taxonomy.php:981
+msgid "Factory"
+msgstr "Fabbrica"
+
+#: includes/posttype_and_taxonomy.php:925
+msgid "Farm"
+msgstr "Cascina"
+
+#: includes/posttype_and_taxonomy.php:937
+msgid "Farmhouse"
+msgstr "Fattoria"
+
+#: templates/archive-property.php:61
+msgid "Filter the properties"
+msgstr "Filtra le proprietà"
+
+#: includes/posttype_and_taxonomy.php:808
+msgid "Fire alarm system"
+msgstr "Allarme antincendio"
+
+#: includes/posttype_and_taxonomy.php:795
+msgid "Fire hose cabinets"
+msgstr "Presa antincendio"
+
+#: includes/posttype_and_taxonomy.php:796
+msgid "Fire sprinkler system"
+msgstr "Sprinkler"
+
+#: includes/posttype_and_taxonomy.php:730
+#: includes/posttype_and_taxonomy.php:1210
+msgid "Fireplace"
+msgstr "Camino"
+
+#: includes/posttype_and_taxonomy.php:818
+msgid "Fishing"
+msgstr "Pesca"
+
+#: includes/posttype_and_taxonomy.php:842
+msgid "Fitness"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:984
+msgid "Flat House"
+msgstr "Casa al pianterreno"
+
+#: includes/posttype_and_taxonomy.php:819
+msgid "Floating pool"
+msgstr "Piscina galleggiante"
+
+#: includes/posttype_and_taxonomy.php:258
+#: includes/posttype_and_taxonomy.php:259
+msgid "Floor"
+msgstr "Piano"
+
+#: includes/posttype_and_taxonomy.php:268
+msgid "Floors"
+msgstr "Piani"
+
+#: templates/single_property_style_1.php:359
+msgid "Flor"
+msgstr "Piano"
+
+#: includes/posttype_and_taxonomy.php:812
+msgid "Flyboard"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:851
+msgid "Flyscreens"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:835
+msgid "Foodservice"
+msgstr "Ristorante/Mensa"
+
+#: includes/posttype_and_taxonomy.php:20
+msgid "Fortnight"
+msgstr "Due settimane"
+
+#: includes/posttype_and_taxonomy.php:690
+msgid "Forward sale"
+msgstr "Vendita futura"
+
+#: includes/posttype_and_taxonomy.php:692
+msgid "Forward sale available"
+msgstr "Forward sale available"
+
+#: includes/posttype_and_taxonomy.php:694
+msgid "Forward sale occupied"
+msgstr "Vendita a termine occupata"
+
+#: includes/posttype_and_taxonomy.php:693
+msgid "Forward sale semi-occupied"
+msgstr "Vendita a termine semi-occupata"
+
+#: includes/posttype_and_taxonomy.php:875
+msgid "Free"
+msgstr "Libero"
+
+#: includes/posttype_and_taxonomy.php:839
+msgid "Freezer"
+msgstr "Congelatore"
+
+#: apimo.php:190 apimo.php:277 templates/archive-property.php:448
+#: templates/archive-property.php:546
+msgid "From"
+msgstr "Da"
+
+#: includes/posttype_and_taxonomy.php:1242
+msgid "Fuel oil"
+msgstr "Nafta"
+
+#: includes/posttype_and_taxonomy.php:678
+#: includes/posttype_and_taxonomy.php:775
+msgid "Furnished"
+msgstr "Arredata"
+
+#: includes/posttype_and_taxonomy.php:1441
+msgid "Gallery"
+msgstr "Galleria"
+
+#: includes/posttype_and_taxonomy.php:995
+msgid "Game reserve"
+msgstr "Riserva di caccia"
+
+#: includes/posttype_and_taxonomy.php:1352
+msgid "Garage"
+msgstr "Garage"
+
+#: templates/archive-property.php:974
+msgid "Garage Or Box"
+msgstr "Garage o Box"
+
+#: includes/posttype_and_taxonomy.php:896
+msgid "Garage/Parking"
+msgstr "Garage / Posto auto"
+
+#: includes/posttype_and_taxonomy.php:1410
+msgid "Garbage room"
+msgstr "Locale immondizia"
+
+#: includes/posttype_and_taxonomy.php:1397
+#: templates/single_property_style_1.php:239
+#: templates/template_archive_block.php:581
+#: templates/template_archive_block.php:665 templates/archive-property.php:852
+msgid "Garden"
+msgstr "Giardino"
+
+#: includes/posttype_and_taxonomy.php:1095
+msgid "Garden level"
+msgstr "Piano giardino"
+
+#: includes/posttype_and_taxonomy.php:1355
+msgid "Garden shelter"
+msgstr "Pergolato"
+
+#: includes/posttype_and_taxonomy.php:1241
+msgid "Gas"
+msgstr "Gas"
+
+#: includes/posttype_and_taxonomy.php:1248
+msgid "Geothermal"
+msgstr "Geotermica"
+
+#: includes/posttype_and_taxonomy.php:989
+msgid "Ger district"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:811
+msgid "Golf"
+msgstr "Golf"
+
+#: includes/posttype_and_taxonomy.php:1314
+msgid "Good condition"
+msgstr "Buono stato"
+
+#: includes/posttype_and_taxonomy.php:1298
+msgid "Grey-water pit"
+msgstr "Pozzo acque grigie"
+
+#: includes/posttype_and_taxonomy.php:1073
+msgid "Ground floor"
+msgstr "Piano terra"
+
+#: includes/posttype_and_taxonomy.php:971
+msgid "Gîte"
+msgstr "Gîte"
+
+#: includes/posttype_and_taxonomy.php:10
+msgid "ha"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:768
+msgid "Hair dryer"
+msgstr "Asciugacapelli"
+
+#: includes/posttype_and_taxonomy.php:681
+msgid "Half furnished"
+msgstr "Parzialmente arredato"
+
+#: includes/posttype_and_taxonomy.php:24
+msgid "Half-yearly"
+msgstr "Semestrale"
+
+#: includes/posttype_and_taxonomy.php:1437
+msgid "Hall"
+msgstr "Ingresso"
+
+#: includes/posttype_and_taxonomy.php:1359
+msgid "Hallway"
+msgstr "Corridoio"
+
+#: includes/posttype_and_taxonomy.php:1055
+msgid "Hamlet"
+msgstr "Borgata"
+
+#: includes/posttype_and_taxonomy.php:1411
+msgid "Hammam"
+msgstr "Hammam"
+
+#: includes/posttype_and_taxonomy.php:943
+msgid "Hangar"
+msgstr "Capannone"
+
+#: includes/posttype_and_taxonomy.php:1247
+#: includes/posttype_and_taxonomy.php:1268
+msgid "Heat pump"
+msgstr "Pompa a calore"
+
+#: includes/posttype_and_taxonomy.php:216
+#: includes/posttype_and_taxonomy.php:217
+#: includes/posttype_and_taxonomy.php:226
+msgid "Heating Access"
+msgstr "Installazione di riscaldamento"
+
+#: templates/single_property_style_1.php:413
+msgid "Heating access"
+msgstr "Installazione di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:237
+#: includes/posttype_and_taxonomy.php:238
+msgid "Heating Device"
+msgstr "Dispositivo riscaldamento"
+
+#: templates/single_property_style_1.php:420
+msgid "Heating device"
+msgstr "Dispositivo riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:247
+msgid "Heating Devices"
+msgstr "Dispositivo riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:195
+#: includes/posttype_and_taxonomy.php:196
+#: includes/posttype_and_taxonomy.php:205
+msgid "Heating Type"
+msgstr "Tipo di riscaldamento"
+
+#: templates/single_property_style_1.php:406
+msgid "Heating type"
+msgstr "Tipo di riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:763
+msgid "Helipad"
+msgstr "Eliporto"
+
+#: includes/posttype_and_taxonomy.php:1332
+msgid "High luxury"
+msgstr "Gran lusso"
+
+#: includes/posttype_and_taxonomy.php:1330
+msgid "High standard"
+msgstr "Prestigio"
+
+#: includes/posttype_and_taxonomy.php:761
+msgid "Hob"
+msgstr "Piano cottura"
+
+#: includes/posttype_and_taxonomy.php:683
+msgid "Holidays"
+msgstr "Casa vacanza"
+
+#: includes/posttype_and_taxonomy.php:774
+msgid "Home automation"
+msgstr "Domotica"
+
+#: includes/posttype_and_taxonomy.php:1394
+msgid "Home cinema"
+msgstr "Home cinema"
+
+#: includes/posttype_and_taxonomy.php:1250
+msgid "Hot water"
+msgstr "Acqua calda"
+
+#: includes/posttype_and_taxonomy.php:1266
+msgid "Hot water tank"
+msgstr "Scaldabagno"
+
+#: includes/posttype_and_taxonomy.php:958
+#: includes/posttype_and_taxonomy.php:1059
+msgid "Hotel"
+msgstr "Hotel"
+
+#: includes/posttype_and_taxonomy.php:893
+#: includes/posttype_and_taxonomy.php:932
+#: includes/posttype_and_taxonomy.php:1431
+msgid "House"
+msgstr "Casa"
+
+#: includes/posttype_and_taxonomy.php:934
+#: includes/posttype_and_taxonomy.php:1333
+msgid "Housing estate"
+msgstr "Lotti"
+
+#: includes/posttype_and_taxonomy.php:1054
+msgid "Housing scheme"
+msgstr "Lottizzazione"
+
+#: includes/posttype_and_taxonomy.php:820
+msgid "Hoverboard"
+msgstr "Hoverboard"
+
+#: includes/posttype_and_taxonomy.php:821
+msgid "Hovercraft"
+msgstr "Hovercraft"
+
+#: includes/posttype_and_taxonomy.php:838
+msgid "Hydraulic Platform"
+msgstr "Piattaforma idraulica"
+
+#: includes/posttype_and_taxonomy.php:1224
+#: includes/posttype_and_taxonomy.php:1281
+msgid "Individual"
+msgstr "Autonomo"
+
+#: includes/posttype_and_taxonomy.php:1422
+msgid "Indoor parking"
+msgstr "Posto auto interno"
+
+#: includes/posttype_and_taxonomy.php:1412
+msgid "Indoor swimming pool"
+msgstr "Piscina interna"
+
+#: includes/posttype_and_taxonomy.php:822
+msgid "Inflatables"
+msgstr "Giochi gonfiabili"
+
+#: includes/posttype_and_taxonomy.php:737
+msgid "Intercom"
+msgstr "Interfono"
+
+#: includes/posttype_and_taxonomy.php:729
+msgid "Internet"
+msgstr "Internet"
+
+#: includes/posttype_and_taxonomy.php:1485
+msgid "Investimento locativo"
+msgstr "Investimento locativo"
+
+#: includes/posttype_and_taxonomy.php:767
+msgid "Iron"
+msgstr "Ferro da stiro"
+
+#: includes/posttype_and_taxonomy.php:742
+msgid "Irrigation sprinkler"
+msgstr "Sistema di irrigazione"
+
+#: includes/posttype_and_taxonomy.php:754
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: includes/posttype_and_taxonomy.php:825
+msgid "Jet ski"
+msgstr "Jet ski"
+
+#: includes/posttype_and_taxonomy.php:6
+msgid "kanal"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1351
+msgid "Kitchen"
+msgstr "Cucina"
+
+#: includes/posttype_and_taxonomy.php:1447
+msgid "Kitchenette"
+msgstr "Cucinotto"
+
+#: includes/posttype_and_taxonomy.php:826
+msgid "Kite surf"
+msgstr "Kite surf"
+
+#: templates/single_property_style_1.php:543
+msgid "kWh/m2 year"
+msgstr "kWh/m2 anno"
+
+#: includes/posttype_and_taxonomy.php:999
+msgid "Lake"
+msgstr "Lago"
+
+#: includes/posttype_and_taxonomy.php:894
+#: includes/posttype_and_taxonomy.php:1399
+#: templates/single_property_style_1.php:259
+#: templates/template_archive_block.php:633
+#: templates/template_archive_block.php:687
+msgid "Land"
+msgstr "Terreno"
+
+#: includes/posttype_and_taxonomy.php:1386
+msgid "Landing"
+msgstr "Ballatoio"
+
+#: includes/metabox.php:128
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: includes/posttype_and_taxonomy.php:1357
+msgid "Laundry room"
+msgstr "Lavanderia"
+
+#: includes/posttype_and_taxonomy.php:1364
+msgid "Lavatory"
+msgstr "WC"
+
+#: includes/posttype_and_taxonomy.php:1486
+msgid "Legge 1235"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1482
+msgid "Legge 1291"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1483
+msgid "Legge 887"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1479
+msgid "Legge Censi-Bouvard"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1478
+msgid "Legge Duflot"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1487
+msgid "Legge Pinel"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1383
+msgid "Library"
+msgstr "Biblioteca"
+
+#: includes/posttype_and_taxonomy.php:659
+#: includes/posttype_and_taxonomy.php:687
+msgid "Life annuity"
+msgstr "Vitalizio libero"
+
+#: includes/posttype_and_taxonomy.php:688
+msgid "Life annuity occupied"
+msgstr "Life annuity occupied"
+
+#: includes/posttype_and_taxonomy.php:691
+msgid "Life annuity semi-occupied"
+msgstr "Vitalizio semi-occupato"
+
+#: includes/posttype_and_taxonomy.php:695
+msgid "Life annuity without income"
+msgstr "Vitalizio senza rendita"
+
+#: includes/posttype_and_taxonomy.php:734 templates/archive-property.php:1154
+msgid "Lift"
+msgstr "Ascensore"
+
+#: includes/posttype_and_taxonomy.php:1387
+msgid "Linen room"
+msgstr "Stenditoio"
+
+#: includes/posttype_and_taxonomy.php:776
+msgid "Linens"
+msgstr "Biancheria di casa"
+
+#: includes/posttype_and_taxonomy.php:850
+msgid "Listed historic building"
+msgstr "Edificio vincolato"
+
+#: includes/posttype_and_taxonomy.php:1368
+msgid "Living room/dining area"
+msgstr "Soggiorno"
+
+#: includes/posttype_and_taxonomy.php:1438
+msgid "Living room/kitchen"
+msgstr "Cucina a tinello"
+
+#: includes/posttype_and_taxonomy.php:1350
+msgid "Living-room"
+msgstr "Salone"
+
+#: includes/posttype_and_taxonomy.php:1451
+msgid "Living/dining/kitchen area"
+msgstr "Soggiorno con cucina"
+
+#: includes/posttype_and_taxonomy.php:1454
+msgid "Lobby"
+msgstr "Lobby/Reception"
+
+#: includes/posttype_and_taxonomy.php:945
+msgid "Local"
+msgstr "Locale"
+
+#: templates/archive-property.php:232
+msgid "Location"
+msgstr "Località"
+
+#: includes/posttype_and_taxonomy.php:1453
+msgid "Locker"
+msgstr "Spogliatoio"
+
+#: includes/posttype_and_taxonomy.php:926
+#: includes/posttype_and_taxonomy.php:1382
+msgid "Loft"
+msgstr "Loft"
+
+#: includes/posttype_and_taxonomy.php:1374
+msgid "Loggia"
+msgstr "Loggia"
+
+#: apimo.php:291
+msgid "Logs"
+msgstr "Registri"
+
+#: includes/metabox.php:119
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: includes/posttype_and_taxonomy.php:1331
+msgid "Luxury"
+msgstr "Lusso"
+
+#: includes/posttype_and_taxonomy.php:1418
+msgid "Maid's room"
+msgstr "Camera di servizio"
+
+#: includes/posttype_and_taxonomy.php:1419
+msgid "Maid's studio"
+msgstr "Foresteria"
+
+#: includes/posttype_and_taxonomy.php:1296
+msgid "Main drainage"
+msgstr "Fognatura"
+
+#: includes/posttype_and_taxonomy.php:1379
+msgid "Maintenance room"
+msgstr "Locale tecnico"
+
+#. Description of the plugin
+msgid "Manage Real Estat Bussiness"
+msgstr "Gestione affari immobiliari"
+
+#: includes/posttype_and_taxonomy.php:952
+msgid "Management"
+msgstr "Gestione"
+
+#: includes/posttype_and_taxonomy.php:924
+msgid "Manor house"
+msgstr "Tenuta"
+
+#: includes/posttype_and_taxonomy.php:951
+msgid "Mansion"
+msgstr "Pensione"
+
+#: includes/posttype_and_taxonomy.php:7
+msgid "marla"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:944
+msgid "Mas"
+msgstr "Cascina"
+
+#: includes/posttype_and_taxonomy.php:1401
+msgid "Master bedroom"
+msgstr "Camera da letto padronale"
+
+#: includes/posttype_and_taxonomy.php:1417
+msgid "Meeting room"
+msgstr "Sala riunioni"
+
+#: includes/posttype_and_taxonomy.php:1035
+msgid "Metal frame"
+msgstr "Struttura Metallica"
+
+#: includes/posttype_and_taxonomy.php:791
+msgid "Metal shutters"
+msgstr "Saracinesca"
+
+#: includes/posttype_and_taxonomy.php:1377
+msgid "Mezzanine"
+msgstr "Soppalco"
+
+#: includes/posttype_and_taxonomy.php:1299
+msgid "Micro sewage treatment"
+msgstr "Micro trattamento delle acque reflue"
+
+#: includes/posttype_and_taxonomy.php:784
+msgid "Microwave oven"
+msgstr "Microonde"
+
+#: includes/posttype_and_taxonomy.php:935
+msgid "Mill"
+msgstr "Mulino"
+
+#: includes/posttype_and_taxonomy.php:1226
+msgid "Mixed"
+msgstr "Misto"
+
+#: includes/posttype_and_taxonomy.php:940
+msgid "Mobile home"
+msgstr "Mobile home"
+
+#: includes/posttype_and_taxonomy.php:1032
+msgid "Monolith brick"
+msgstr "Mattone monolitico"
+
+#: includes/posttype_and_taxonomy.php:21
+msgid "Month"
+msgstr "Mese"
+
+#: includes/metabox.php:101
+msgid "More details: "
+msgstr "Maggiori dettagli"
+
+#: includes/posttype_and_taxonomy.php:965
+msgid "Motor Yacht"
+msgstr "Yacht"
+
+#: includes/posttype_and_taxonomy.php:996
+msgid "Motorboat"
+msgstr "Motoscafo"
+
+#: includes/posttype_and_taxonomy.php:1036
+msgid "Mudbrick"
+msgstr "Mattoni di fango"
+
+#: includes/posttype_and_taxonomy.php:4
+msgid "m²"
+msgstr "M2"
+
+#: includes/posttype_and_taxonomy.php:966
+msgid "Narrow boat"
+msgstr "Battello fluviale"
+
+#: includes/posttype_and_taxonomy.php:1317
+msgid "New"
+msgstr "Nuovo"
+
+#: includes/posttype_and_taxonomy.php:78
+msgid "New Areas Name"
+msgstr "Nuovo Nome superfici"
+
+#: includes/posttype_and_taxonomy.php:371
+msgid "New Availability Name"
+msgstr "Nuovo nome disponibilità"
+
+#: includes/posttype_and_taxonomy.php:287
+msgid "New Building Type Name"
+msgstr "Nuovo nome tipo di edificio"
+
+#: includes/posttype_and_taxonomy.php:434
+msgid "New Category Name"
+msgstr "Nuovo nome categoria"
+
+#: includes/posttype_and_taxonomy.php:518
+msgid "New City Name"
+msgstr "Nuova città"
+
+#: includes/posttype_and_taxonomy.php:120
+msgid "New Condition Name"
+msgstr "Nuovo nome condizione"
+
+#: includes/posttype_and_taxonomy.php:685
+msgid "New construction"
+msgstr "Nuova costruzione"
+
+#: includes/posttype_and_taxonomy.php:308
+msgid "New Construction Name"
+msgstr "Nuovo nome costruzione"
+
+#: includes/posttype_and_taxonomy.php:476
+msgid "New Country Name"
+msgstr "Nuovo Paese"
+
+#: includes/posttype_and_taxonomy.php:579
+msgid "New Customised Tag Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:539
+msgid "New District Name"
+msgstr "Nuovo Quartiere"
+
+#: includes/posttype_and_taxonomy.php:267
+msgid "New Floor Name"
+msgstr "Nuovo piano"
+
+#: includes/posttype_and_taxonomy.php:225
+msgid "New Heating Access Name"
+msgstr "Nuovo nome"
+
+#: includes/posttype_and_taxonomy.php:246
+msgid "New Heating Device Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:204
+msgid "New Heating Type Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:392
+msgid "New Orientation Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:497
+msgid "New Region Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:559
+msgid "New Repository Tag Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:413
+msgid "New Service Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:99
+msgid "New Standing Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:455
+msgid "New Sub Category Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:330
+msgid "New Subtype Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:350
+msgid "New Type Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:162
+msgid "New Water Hot Access Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:141
+msgid "New Water Hot Device Name"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:183
+msgid "New Water Waste Name"
+msgstr ""
+
+#: includes/apimo_ajax.php:900
+msgid "No property with all this applied filter"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:804
+msgid "Non-flooding"
+msgstr "Non inondabile"
+
+#: includes/posttype_and_taxonomy.php:710
+msgid "North"
+msgstr "Nord"
+
+#: includes/posttype_and_taxonomy.php:713
+msgid "North-east"
+msgstr "Nord-est"
+
+#: includes/posttype_and_taxonomy.php:716
+msgid "North-west"
+msgstr "Nord-ovest"
+
+#: includes/posttype_and_taxonomy.php:917
+msgid "Not constructible land"
+msgstr "Terreno non edificabile"
+
+#: includes/posttype_and_taxonomy.php:1373
+msgid "Not used"
+msgstr "Inutilizzato"
+
+#: includes/posttype_and_taxonomy.php:615
+msgid "Number of Rooms"
+msgstr "Numero di stanze"
+
+#: includes/posttype_and_taxonomy.php:877
+msgid "Occupied"
+msgstr "Occupato"
+
+#: includes/posttype_and_taxonomy.php:898
+#: includes/posttype_and_taxonomy.php:950
+msgid "Office"
+msgstr "Ufficio"
+
+#: includes/posttype_and_taxonomy.php:1448
+msgid "Open kitchen"
+msgstr "Cucina a vista"
+
+#: includes/posttype_and_taxonomy.php:1436
+msgid "Open space"
+msgstr "Open space"
+
+#: includes/posttype_and_taxonomy.php:803
+msgid "Optical fiber"
+msgstr "Fibra ottica"
+
+#: templates/archive-property.php:1192
+msgid "Order By"
+msgstr "Ordina per"
+
+#: includes/posttype_and_taxonomy.php:383
+#: includes/posttype_and_taxonomy.php:384
+#: includes/posttype_and_taxonomy.php:393
+msgid "Orientation"
+msgstr "Esposizione"
+
+#: includes/posttype_and_taxonomy.php:1376
+msgid "Other"
+msgstr "Atro"
+
+#: templates/single_property_style_1.php:793
+msgid "Other properties you might like"
+msgstr "Altri immobili che potrebbero piacerti"
+
+#: includes/posttype_and_taxonomy.php:1407
+msgid "Outbuilding"
+msgstr "Dependance"
+
+#: includes/posttype_and_taxonomy.php:772
+msgid "Outdoor lighting"
+msgstr "Illuminazione esterna"
+
+#: includes/posttype_and_taxonomy.php:1423
+msgid "Outdoor parking"
+msgstr "Posto auto esterno"
+
+#: includes/posttype_and_taxonomy.php:781
+msgid "Oven"
+msgstr "Forno"
+
+#: includes/posttype_and_taxonomy.php:845
+msgid "Overhead crane"
+msgstr "Carroponti"
+
+#: includes/posttype_and_taxonomy.php:827
+msgid "Paddle"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1033
+msgid "Panel"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1435
+msgid "Panic room"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:841
+msgid "Pantry"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:73
+msgid "Parent Areas"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:74
+msgid "Parent Areas:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:366
+msgid "Parent Availability"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:367
+msgid "Parent Availability:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:282
+msgid "Parent Building Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:283
+msgid "Parent Building Type:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:429
+msgid "Parent Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:430
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:513
+msgid "Parent City"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:514
+msgid "Parent City:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:115
+msgid "Parent Condition"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:116
+msgid "Parent Condition:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:303
+msgid "Parent Construction"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:304
+msgid "Parent Construction:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:471
+msgid "Parent Country"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:472
+msgid "Parent Country:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:574
+msgid "Parent Customised Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:575
+msgid "Parent Customised Tag:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:534
+msgid "Parent District"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:535
+msgid "Parent District:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:262
+msgid "Parent Floor"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:263
+msgid "Parent Floor:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:220
+msgid "Parent Heating Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:221
+msgid "Parent Heating Access:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:241
+msgid "Parent Heating Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:242
+msgid "Parent Heating Device:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:199
+msgid "Parent Heating Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:200
+msgid "Parent Heating Type:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:387
+msgid "Parent Orientation"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:388
+msgid "Parent Orientation:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:492
+msgid "Parent Region"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:493
+msgid "Parent Region:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:554
+msgid "Parent Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:555
+msgid "Parent Repository Tag:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:408
+msgid "Parent Service"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:409
+msgid "Parent Service:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:94
+msgid "Parent Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:95
+msgid "Parent Standing:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:450
+msgid "Parent Sub Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:451
+msgid "Parent Sub Category:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:325
+msgid "Parent Subtype"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:326
+msgid "Parent Subtype:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:345
+msgid "Parent Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:346
+msgid "Parent Type:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:157
+msgid "Parent Water Hot Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:158
+msgid "Parent Water Hot Access:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:136
+msgid "Parent Water Hot Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:137
+msgid "Parent Water Hot Device:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:178
+msgid "Parent Water Waste"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:179
+msgid "Parent Water Waste:"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1398
+#: templates/single_property_style_1.php:249
+#: templates/template_archive_block.php:611
+#: templates/template_archive_block.php:675
+msgid "Park"
+msgstr "Parco"
+
+#: includes/posttype_and_taxonomy.php:957
+#: includes/posttype_and_taxonomy.php:1353
+msgid "Parking"
+msgstr "Parcheggio"
+
+#: templates/archive-property.php:1018
+msgid "Parking space"
+msgstr "Parcheggio"
+
+#: includes/posttype_and_taxonomy.php:1400
+msgid "Patio"
+msgstr "PatioReseda/Patio"
+
+#: includes/posttype_and_taxonomy.php:1002
+msgid "Pavilion"
+msgstr "Padiglione"
+
+#: includes/posttype_and_taxonomy.php:918
+msgid "Penthouse"
+msgstr "Attico"
+
+#: includes/posttype_and_taxonomy.php:13
+msgid "perches"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:790
+msgid "Pets allowed"
+msgstr "Animali ammessi"
+
+#: includes/posttype_and_taxonomy.php:779
+msgid "Phone"
+msgstr "Telefono"
+
+#: includes/posttype_and_taxonomy.php:1369
+msgid "Play room"
+msgstr "Sala giochi"
+
+#: includes/posttype_and_taxonomy.php:810
+msgid "Playground"
+msgstr "Terreno di gioco"
+
+#: includes/posttype_and_taxonomy.php:1449
+msgid "Plot"
+msgstr "Appezzamento"
+
+#: includes/posttype_and_taxonomy.php:960
+msgid "Plot of land"
+msgstr "Terreno"
+
+#: templates/archive-property.php:1102
+msgid "Pool"
+msgstr "Piscina"
+
+#: includes/posttype_and_taxonomy.php:1371
+msgid "Pool house"
+msgstr "Pool house"
+
+#: includes/posttype_and_taxonomy.php:1450
+msgid "Porch"
+msgstr "Portico"
+
+#: includes/posttype_and_taxonomy.php:1413
+msgid "Prayer room"
+msgstr "Sala di preghiera"
+
+#: includes/posttype_and_taxonomy.php:947
+msgid "Premises"
+msgstr "Locale commerciale"
+
+#: templates/single_property_style_1.php:464
+msgid "Prestazione energetica"
+msgstr "Prestazione energetica"
+
+#: includes/posttype_and_taxonomy.php:613 templates/archive-property.php:424
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/metabox.php:229
+msgid "Price Hide ? "
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1473
+msgid "Prima casa"
+msgstr "Prima casa"
+
+#: includes/posttype_and_taxonomy.php:1489
+msgid "Prima occupazione"
+msgstr "Prima occupazione"
+
+#: includes/posttype_and_taxonomy.php:991
+msgid "Private island"
+msgstr "Isola privata"
+
+#: templates/template_archive_block.php:711
+msgid "Private Negotiation"
+msgstr "Trattativa riservata"
+
+#: templates/single_property_style_1.php:155
+msgid "Private negotiation"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1490
+msgid "Professione liberale"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:36
+msgid "Properties"
+msgstr "Proprietà"
+
+#: includes/metabox.php:61
+msgid "Properties Details"
+msgstr "Dettaglio proprietà"
+
+#: templates/archive-property.php:154 templates/archive-property.php:178
+msgid "Properties Type"
+msgstr "Tipologia di immobile"
+
+#: includes/posttype_and_taxonomy.php:37 includes/posttype_and_taxonomy.php:933
+#: includes/posttype_and_taxonomy.php:1057
+msgid "Property"
+msgstr "Proprietà"
+
+#: templates/single_property_style_1.php:164
+msgid "Property specifications"
+msgstr "Specifica della proprietà"
+
+#: templates/single_property_style_1.php:339
+msgid "Property standing"
+msgstr "Classe dell'immobile"
+
+#: templates/archive-property.php:1350
+msgid "Publish date: from newest to oldest"
+msgstr "Pubblicazione: dal più recente al più vecchio"
+
+#: templates/archive-property.php:1342
+msgid "Publish date: from oldest to newest"
+msgstr "Pubblicazione: dal più vecchio al più recente"
+
+#: templates/archive-property.php:736
+msgid "published at"
+msgstr "Pubblicato alle"
+
+#: includes/metabox.php:77
+msgid "Puoi sostituire il template selezionato di default."
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:22
+msgid "Quarterly"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1205
+msgid "Radiator"
+msgstr "Radiatore"
+
+#: includes/metabox.php:137
+msgid "Radius coordinate : "
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1149
+msgid "Raised"
+msgstr "Piano rialzato"
+
+#: includes/posttype_and_taxonomy.php:998
+msgid "Ranch"
+msgstr "Ranch"
+
+#: includes/posttype_and_taxonomy.php:782
+msgid "Reception 24/7"
+msgstr "Reception 24/7"
+
+#: includes/posttype_and_taxonomy.php:1395
+msgid "Reception room"
+msgstr "Sala ricevimento"
+
+#: includes/posttype_and_taxonomy.php:780
+msgid "Refrigerator"
+msgstr "Frigorifero"
+
+#: includes/posttype_and_taxonomy.php:488
+#: includes/posttype_and_taxonomy.php:489
+#: includes/posttype_and_taxonomy.php:617 templates/archive-property.php:292
+msgid "Region"
+msgstr "Provincia"
+
+#: includes/posttype_and_taxonomy.php:498
+msgid "Regions"
+msgstr "Regioni"
+
+#: includes/posttype_and_taxonomy.php:1334
+msgid "Regular"
+msgstr "Normale"
+
+#: includes/posttype_and_taxonomy.php:1025
+msgid "Reinforced concrete"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1028
+msgid "Reinforced concrete frame"
+msgstr ""
+
+#: templates/archive-property.php:1238
+msgid "Relevance"
+msgstr ""
+
+#: templates/archive-property.php:1834
+msgid "Remove all"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:656
+msgid "Rental"
+msgstr "Affitto"
+
+#: includes/posttype_and_taxonomy.php:876
+msgid "Rented"
+msgstr "Affittato"
+
+#: includes/posttype_and_taxonomy.php:551
+#: includes/posttype_and_taxonomy.php:560
+msgid "Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:550
+msgid "Repository Tags"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1315
+msgid "Requires renovation"
+msgstr "Da ristrutturare"
+
+#: includes/posttype_and_taxonomy.php:1313
+msgid "Requires updating"
+msgstr "Da rinfrescare"
+
+#: includes/posttype_and_taxonomy.php:1053
+msgid "Residence"
+msgstr "Residenza"
+
+#: includes/posttype_and_taxonomy.php:992
+msgid "Residential land"
+msgstr "Zona residenziale"
+
+#: includes/posttype_and_taxonomy.php:1481
+msgid "Residenza per anziani"
+msgstr "Residenza per anziani"
+
+#: includes/posttype_and_taxonomy.php:1477
+msgid "Residenza seniors"
+msgstr "Residenza per anziani"
+
+#: includes/posttype_and_taxonomy.php:1476
+msgid "Residenza turistico/alberghiera"
+msgstr "Residenza per anziani"
+
+#: includes/posttype_and_taxonomy.php:976
+msgid "Retail shop"
+msgstr "Boutique"
+
+#: includes/posttype_and_taxonomy.php:972
+msgid "Riad"
+msgstr "Riad"
+
+#: includes/posttype_and_taxonomy.php:949
+msgid "Right to the lease"
+msgstr "Buona entrata"
+
+#: templates/archive-property.php:1262
+msgid "Rising area"
+msgstr "Superficie crescente"
+
+#: templates/archive-property.php:1246
+msgid "Rising price"
+msgstr "Prezzo crescente"
+
+#: includes/posttype_and_taxonomy.php:1488
+msgid "Rivendita"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1416
+msgid "Room"
+msgstr "Stanza"
+
+#: includes/posttype_and_taxonomy.php:679
+msgid "Roommate"
+msgstr "Co-locazione"
+
+#: templates/single_property_style_1.php:174
+#: templates/single_property_style_1.php:380
+#: templates/template_archive_block.php:379
+#: templates/template_archive_block.php:485 templates/archive-property.php:610
+msgid "Rooms"
+msgstr "Camere"
+
+#: includes/posttype_and_taxonomy.php:1003
+#: includes/posttype_and_taxonomy.php:1378
+msgid "Root cellar"
+msgstr "Mansarda"
+
+#: includes/posttype_and_taxonomy.php:931
+msgid "Ruin"
+msgstr "Rudere"
+
+#: includes/posttype_and_taxonomy.php:762
+msgid "Safe"
+msgstr "Cassaforte"
+
+#: includes/posttype_and_taxonomy.php:967
+msgid "Sailing Yacht"
+msgstr "Yacht a vela"
+
+#: includes/posttype_and_taxonomy.php:655
+msgid "Sale"
+msgstr "Vendita"
+
+#: includes/posttype_and_taxonomy.php:755
+#: includes/posttype_and_taxonomy.php:1414
+msgid "Sauna"
+msgstr "Sauna"
+
+#: includes/posttype_and_taxonomy.php:828
+msgid "Scooter"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:829
+msgid "Seabob"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:71
+msgid "Search Areas"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:364
+msgid "Search Availability"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:280
+msgid "Search Building Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:427
+msgid "Search Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:511
+msgid "Search City"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:113
+msgid "Search Condition"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:301
+msgid "Search Construction"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:469
+msgid "Search Country"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:572
+msgid "Search Customised Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:532
+msgid "Search District"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:260
+msgid "Search Floor"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:218
+msgid "Search Heating Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:239
+msgid "Search Heating Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:197
+msgid "Search Heating Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:385
+msgid "Search Orientation"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:490
+msgid "Search Regions"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:552
+msgid "Search Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:406
+msgid "Search Service"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:92
+msgid "Search Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:448
+msgid "Search Sub Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:323
+msgid "Search Subtype"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:343
+msgid "Search Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:155
+msgid "Search Water Hot Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:134
+msgid "Search Water Hot Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:176
+msgid "Search Water Waste"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:657
+msgid "Seasonal rental"
+msgstr "Affitto stagionale"
+
+#: includes/posttype_and_taxonomy.php:1474
+msgid "Seconda casa"
+msgstr "Seconda casa"
+
+#: includes/posttype_and_taxonomy.php:740
+msgid "Security door"
+msgstr "Porta blindata"
+
+#: includes/posttype_and_taxonomy.php:852
+msgid "Security service"
+msgstr "Servizio sicurezza"
+
+#: includes/posttype_and_taxonomy.php:830
+msgid "Segway"
+msgstr ""
+
+#: templates/archive-property.php:107
+msgid "Select category"
+msgstr "Seleziona Categoria"
+
+#: templates/archive-property.php:334
+msgid "Select city"
+msgstr "Seleziona città"
+
+#: templates/archive-property.php:262
+msgid "Select country"
+msgstr "Seleziona una nazione"
+
+#: templates/archive-property.php:372
+msgid "Select district"
+msgstr "Seleziona quartiere"
+
+#: templates/archive-property.php:298
+msgid "Select region"
+msgstr "Seleziona Provincia"
+
+#: templates/archive-property.php:184
+msgid "Select type"
+msgstr "Seleziona Tipologia"
+
+#: includes/posttype_and_taxonomy.php:1472
+msgid "Selezione / Preferito"
+msgstr "Selezione / Preferito"
+
+#: includes/posttype_and_taxonomy.php:1445
+msgid "Semi equipped kitchen"
+msgstr "Cucina semi arredata"
+
+#: includes/posttype_and_taxonomy.php:985
+msgid "Semi-detached house"
+msgstr "Casa a schiera"
+
+#: includes/posttype_and_taxonomy.php:1295
+msgid "Septic tank"
+msgstr "Fossa biologica"
+
+#: includes/posttype_and_taxonomy.php:404
+#: includes/posttype_and_taxonomy.php:405
+#: includes/posttype_and_taxonomy.php:414
+msgid "Service"
+msgstr "Servizio"
+
+#: includes/posttype_and_taxonomy.php:982
+msgid "Serviced apartment"
+msgstr "Residence"
+
+#: templates/single_property_style_1.php:712
+msgid "Services"
+msgstr "Servizi"
+
+#: apimo.php:290
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/posttype_and_taxonomy.php:785
+msgid "Shabbat elevator"
+msgstr "Ascensore Shabbat"
+
+#: includes/posttype_and_taxonomy.php:1029
+msgid "Shear wall"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1403
+msgid "Shed"
+msgstr "Rimessa"
+
+#: includes/posttype_and_taxonomy.php:1425
+msgid "Shop"
+msgstr "Negozio"
+
+#: includes/posttype_and_taxonomy.php:978
+msgid "Shophouse"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1361
+msgid "Shower room"
+msgstr "Bagno con doccia"
+
+#: includes/posttype_and_taxonomy.php:1390
+msgid "Shower room / Lavatory"
+msgstr "Doccia/WC"
+
+#: includes/posttype_and_taxonomy.php:832
+msgid "Simple flow ventilation"
+msgstr "Ventilazione singolo flusso"
+
+#: includes/posttype_and_taxonomy.php:855
+msgid "Single glazing"
+msgstr "Singoli vetri"
+
+#: includes/posttype_and_taxonomy.php:857
+msgid "Single glazing metal"
+msgstr "Singoli vetri metallo"
+
+#: includes/posttype_and_taxonomy.php:856
+msgid "Single glazing plastic"
+msgstr "Singoli vetri plastica"
+
+#: includes/posttype_and_taxonomy.php:1102
+msgid "Single-storey"
+msgstr "Piano unico"
+
+#: includes/posttype_and_taxonomy.php:1409
+msgid "Ski storage room"
+msgstr "Locale sci"
+
+#: includes/posttype_and_taxonomy.php:748
+msgid "Sliding windows"
+msgstr "Vetrate scorrevoli"
+
+#: includes/posttype_and_taxonomy.php:1245
+#: includes/posttype_and_taxonomy.php:1265
+msgid "Solar"
+msgstr "Solare"
+
+#: includes/posttype_and_taxonomy.php:844
+msgid "Solar panels"
+msgstr "Pannelli solari"
+
+#: includes/posttype_and_taxonomy.php:1367
+msgid "Solarium"
+msgstr "Solarium"
+
+#: includes/posttype_and_taxonomy.php:712
+msgid "South"
+msgstr "Sud"
+
+#: includes/posttype_and_taxonomy.php:714
+msgid "South-east"
+msgstr "Sud-est"
+
+#: includes/posttype_and_taxonomy.php:715
+msgid "South-west"
+msgstr "Sud-ovest"
+
+#: includes/posttype_and_taxonomy.php:773
+#: includes/posttype_and_taxonomy.php:1440
+msgid "Spa"
+msgstr "Spa"
+
+#: includes/posttype_and_taxonomy.php:1480
+msgid "Spese notarili ridotte"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1096
+msgid "Split-level"
+msgstr "Semi-interrato"
+
+#: includes/posttype_and_taxonomy.php:758
+msgid "Spring"
+msgstr "Sorgente"
+
+#: includes/posttype_and_taxonomy.php:5
+msgid "sq ft"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:8
+msgid "sq yd"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:837
+msgid "Stabilizers"
+msgstr "Stabilizzatori"
+
+#: includes/posttype_and_taxonomy.php:1432
+msgid "Stair"
+msgstr "Scalinata"
+
+#: includes/posttype_and_taxonomy.php:90 includes/posttype_and_taxonomy.php:91
+#: includes/posttype_and_taxonomy.php:100
+msgid "Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1027
+msgid "Steel frame"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1424
+msgid "Stockroom"
+msgstr "Magazzino"
+
+#: includes/posttype_and_taxonomy.php:1022
+msgid "Stone"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1396
+msgid "Storage room"
+msgstr "Ripostiglio"
+
+#: includes/posttype_and_taxonomy.php:766
+#: includes/posttype_and_taxonomy.php:1206
+msgid "Stove"
+msgstr "Blocco cucina"
+
+#: includes/posttype_and_taxonomy.php:1058
+msgid "Street"
+msgstr "Via / Viale / Strada ..."
+
+#: includes/metabox.php:92
+msgid "Street Number"
+msgstr "Numero civico"
+
+#: includes/posttype_and_taxonomy.php:959
+msgid "Stud farm"
+msgstr "Tenuta per cavalli"
+
+#: includes/posttype_and_taxonomy.php:680
+msgid "Student"
+msgstr "Studentesco"
+
+#: includes/posttype_and_taxonomy.php:920
+#: includes/posttype_and_taxonomy.php:1381
+msgid "Studio"
+msgstr "Monolocale"
+
+#: includes/posttype_and_taxonomy.php:1358
+msgid "Study"
+msgstr "Ufficio"
+
+#: includes/posttype_and_taxonomy.php:446
+#: includes/posttype_and_taxonomy.php:447
+#: includes/posttype_and_taxonomy.php:456
+msgid "Sub Category"
+msgstr "Sotto categoria"
+
+#: includes/posttype_and_taxonomy.php:994
+msgid "Subdivision"
+msgstr "Lottizzazione"
+
+#: includes/posttype_and_taxonomy.php:321
+#: includes/posttype_and_taxonomy.php:322
+#: includes/posttype_and_taxonomy.php:331
+msgid "Subtype"
+msgstr "Sotto tipologia"
+
+#: includes/posttype_and_taxonomy.php:1402
+msgid "Suite"
+msgstr "Suite"
+
+#: includes/posttype_and_taxonomy.php:786
+msgid "Sukkah"
+msgstr "Sukkah"
+
+#: templates/single_property_style_1.php:642
+msgid "Summer"
+msgstr "Estate"
+
+#: includes/posttype_and_taxonomy.php:990
+msgid "Summer house"
+msgstr "Casa vacanze"
+
+#: includes/posttype_and_taxonomy.php:1439
+msgid "Summer kitchen"
+msgstr "Cucina estiva"
+
+#: includes/posttype_and_taxonomy.php:739
+msgid "Swimming pool"
+msgstr "Piscina"
+
+#: includes/posttype_and_taxonomy.php:787
+msgid "Synagogue"
+msgstr "Sinagoga"
+
+#: includes/posttype_and_taxonomy.php:777
+msgid "Tableware"
+msgstr "Stoviglie"
+
+#: includes/posttype_and_taxonomy.php:769
+msgid "Television"
+msgstr "Televisione"
+
+#: includes/metabox.php:81
+msgid "Template 1"
+msgstr ""
+
+#: includes/metabox.php:83
+msgid "Template 2"
+msgstr ""
+
+#: includes/metabox.php:76
+msgid "Template Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:741
+msgid "Tennis court"
+msgstr "Campo da tennis"
+
+#: includes/posttype_and_taxonomy.php:1366 templates/archive-property.php:892
+msgid "Terrace"
+msgstr "Terrazza"
+
+#: includes/posttype_and_taxonomy.php:1020
+msgid "Timber"
+msgstr ""
+
+#: apimo.php:191 apimo.php:278 templates/archive-property.php:454
+#: templates/archive-property.php:552
+msgid "To"
+msgstr "A"
+
+#: includes/posttype_and_taxonomy.php:878
+msgid "To be agreed"
+msgstr "Da definire"
+
+#: includes/posttype_and_taxonomy.php:12
+msgid "toises"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1074
+msgid "Top floor"
+msgstr "Ultimo piano"
+
+#: includes/posttype_and_taxonomy.php:846
+msgid "Tow-away zone"
+msgstr "Passo carrabile"
+
+#: includes/posttype_and_taxonomy.php:939
+msgid "Townhouse"
+msgstr "Casa di città"
+
+#: includes/posttype_and_taxonomy.php:1297
+msgid "Treatment plant"
+msgstr "Impianto di depurazione"
+
+#: includes/posttype_and_taxonomy.php:801
+msgid "Triple glazing"
+msgstr "Tripli vetri"
+
+#: includes/posttype_and_taxonomy.php:860
+msgid "Triple glazing plastic"
+msgstr "Tripli vetri plastica"
+
+#: includes/posttype_and_taxonomy.php:1421
+msgid "Triple reception room"
+msgstr "Tripla reception "
+
+#: includes/posttype_and_taxonomy.php:915
+msgid "Triplex"
+msgstr "Triplex"
+
+#: includes/posttype_and_taxonomy.php:738
+msgid "TV distribution"
+msgstr "TV via cavo"
+
+#: includes/posttype_and_taxonomy.php:983
+msgid "Twin Villa"
+msgstr "Villetta a schiera"
+
+#: includes/posttype_and_taxonomy.php:341
+#: includes/posttype_and_taxonomy.php:342
+#: includes/posttype_and_taxonomy.php:351
+#: templates/single_property_style_1.php:310
+#: templates/single_property_style_1.php:449
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/posttype_and_taxonomy.php:1204
+msgid "Underfloor"
+msgstr "A pavimento"
+
+#: includes/posttype_and_taxonomy.php:677
+msgid "Unfurnished"
+msgstr "Non arredata"
+
+#: includes/posttype_and_taxonomy.php:1427
+msgid "Unit"
+msgstr "Lotto"
+
+#: includes/posttype_and_taxonomy.php:675
+msgid "Unit sale"
+msgstr "Vendita all'unità"
+
+#: includes/posttype_and_taxonomy.php:76
+msgid "Update Areas"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:369
+msgid "Update Availability"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:285
+msgid "Update Building Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:432
+msgid "Update Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:516
+msgid "Update City"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:118
+msgid "Update Condition"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:306
+msgid "Update Construction"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:474
+msgid "Update Country"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:577
+msgid "Update Customised Tag"
+msgstr ""
+
+#: templates/archive-property.php:1334
+msgid "Update date: from newest to oldest"
+msgstr "Aggiornamenti: dal più recente al più vecchio"
+
+#: templates/archive-property.php:1326
+msgid "Update date: from oldest to newest"
+msgstr "Aggiornamenti: dal più vecchio al più recente"
+
+#: includes/posttype_and_taxonomy.php:537
+msgid "Update District"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:265
+msgid "Update Floor"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:223
+msgid "Update Heating Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:244
+msgid "Update Heating Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:202
+msgid "Update Heating Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:390
+msgid "Update Orientation"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:495
+msgid "Update Region"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:557
+msgid "Update Repository Tag"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:411
+msgid "Update Service"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:97
+msgid "Update Standing"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:453
+msgid "Update Sub Category"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:328
+msgid "Update Subtype"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:348
+msgid "Update Type"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:160
+msgid "Update Water Hot Access"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:139
+msgid "Update Water Hot Device"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:181
+msgid "Update Water Waste"
+msgstr ""
+
+#: templates/archive-property.php:748
+msgid "updated at"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1484
+msgid "Uso misto"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1365
+msgid "Veranda"
+msgstr "Veranda"
+
+#: includes/posttype_and_taxonomy.php:765
+msgid "Video security"
+msgstr "Videosorveglianza"
+
+#: includes/posttype_and_taxonomy.php:764
+msgid "Videophone"
+msgstr "Videocitofono"
+
+#: includes/posttype_and_taxonomy.php:928
+msgid "Villa"
+msgstr "Villa"
+
+#: includes/posttype_and_taxonomy.php:927
+msgid "Village house"
+msgstr "Casa di paese"
+
+#: includes/posttype_and_taxonomy.php:1491
+msgid "Villeggiatura"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:964
+msgid "Vineyard property"
+msgstr "Proprietà vinicola"
+
+#: includes/posttype_and_taxonomy.php:831
+msgid "Wakeboard"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1362
+msgid "Walk-in closet"
+msgstr "Cabina armadio"
+
+#: includes/posttype_and_taxonomy.php:900
+#: includes/posttype_and_taxonomy.php:955
+#: includes/posttype_and_taxonomy.php:1428
+msgid "Warehouse"
+msgstr "Magazzino / Capannone"
+
+#: includes/posttype_and_taxonomy.php:753
+msgid "Washing machine"
+msgstr "Lavatrice"
+
+#: includes/posttype_and_taxonomy.php:1415
+msgid "Watchtower"
+msgstr "Torre d'avvistamento"
+
+#: includes/posttype_and_taxonomy.php:806
+msgid "Water filtration system"
+msgstr "Sistema filtraggio dell’acqua"
+
+#: includes/posttype_and_taxonomy.php:153
+#: includes/posttype_and_taxonomy.php:154
+#: includes/posttype_and_taxonomy.php:163
+msgid "Water Hot Access"
+msgstr ""
+
+#: templates/single_property_style_1.php:434
+msgid "Water hot access"
+msgstr "Alimentazione dispositivo acqua calda"
+
+#: includes/posttype_and_taxonomy.php:132
+#: includes/posttype_and_taxonomy.php:133
+#: includes/posttype_and_taxonomy.php:142
+msgid "Water Hot Device"
+msgstr "Alimentazione dispositivo acqua calda"
+
+#: templates/single_property_style_1.php:427
+msgid "Water hot device"
+msgstr "Dispositivo acqua calda"
+
+#: includes/posttype_and_taxonomy.php:823
+msgid "Water slide"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:800
+msgid "Water softener"
+msgstr "Potabilizzatore"
+
+#: includes/posttype_and_taxonomy.php:174
+#: includes/posttype_and_taxonomy.php:175
+#: includes/posttype_and_taxonomy.php:184
+msgid "Water Waste"
+msgstr ""
+
+#: templates/single_property_style_1.php:441
+msgid "Water waste"
+msgstr "Acque nere"
+
+#: includes/posttype_and_taxonomy.php:824
+msgid "Waterpark"
+msgstr "Parco acquatico"
+
+#: includes/posttype_and_taxonomy.php:1000
+msgid "Waterside mansion"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:19
+msgid "Week"
+msgstr "Settimana"
+
+#: includes/posttype_and_taxonomy.php:757
+msgid "Well"
+msgstr "Pozzi"
+
+#: includes/posttype_and_taxonomy.php:802
+msgid "Well drilling"
+msgstr "Pozzo artesiano"
+
+#: includes/posttype_and_taxonomy.php:711
+msgid "West"
+msgstr "Ovest"
+
+#: includes/posttype_and_taxonomy.php:797
+msgid "Wharf"
+msgstr "Banchina di carico"
+
+#: includes/posttype_and_taxonomy.php:756
+msgid "Whirlpool tub"
+msgstr "Vasca idromassaggio"
+
+#: includes/posttype_and_taxonomy.php:751
+msgid "Window shade"
+msgstr "Tenda"
+
+#: includes/posttype_and_taxonomy.php:1457
+msgid "Wine cellar"
+msgstr "Cantina vinicola"
+
+#: templates/single_property_style_1.php:573
+msgid "Winter"
+msgstr "Inverno"
+
+#: includes/posttype_and_taxonomy.php:792
+msgid "Wiring closet"
+msgstr "Armadio di raccordo informatico"
+
+#: includes/posttype_and_taxonomy.php:1209
+msgid "Without"
+msgstr "Senza riscaldamento"
+
+#: includes/posttype_and_taxonomy.php:1244
+msgid "Wood"
+msgstr "Legna"
+
+#: includes/posttype_and_taxonomy.php:1026
+#: includes/posttype_and_taxonomy.php:1034
+msgid "Wood frame"
+msgstr ""
+
+#: includes/posttype_and_taxonomy.php:1249
+msgid "Wood pellet"
+msgstr "Pellet"
+
+#: includes/posttype_and_taxonomy.php:956
+msgid "Woodshed"
+msgstr "Rimessa"
+
+#: includes/posttype_and_taxonomy.php:977
+#: includes/posttype_and_taxonomy.php:1380
+msgid "Workshop"
+msgstr "Officina"
+
+#: includes/posttype_and_taxonomy.php:25
+msgid "Yearly"
+msgstr "Annuale"
