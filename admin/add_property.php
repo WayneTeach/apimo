@@ -13,7 +13,6 @@ include_once(ABSPATH . 'wp-admin/includes/admin.php');
 
 
 function apimo_fetch_property()
-
 {
 
 	if (false === as_has_scheduled_action('apimo_import_property_recurring')) {
@@ -37,7 +36,6 @@ add_action('init', 'apimo_fetch_property');
  */
 
 function apimo_fetch_property_fun()
-
 {
 
 
@@ -91,11 +89,11 @@ function apimo_fetch_property_fun()
 
 
 
-	$apimo_api_keys =  get_option('apimo_key_data');
+	$apimo_api_keys = get_option('apimo_key_data');
 
 	$api_property_array = array();
 
-	if (!empty($apimo_api_keys)) :
+	if (!empty($apimo_api_keys)):
 
 		foreach ($apimo_api_keys as $data_keys) {
 
@@ -126,7 +124,8 @@ function apimo_fetch_property_fun()
 
 				),
 
-			));
+			)
+			);
 
 
 
@@ -220,7 +219,6 @@ add_action('apimo_import_single_property', 'apimo_add_new_property');
 
 
 function apimo_add_new_property($property_id)
-
 {
 
 
@@ -235,25 +233,27 @@ function apimo_add_new_property($property_id)
 
 
 
-	$property_exist = new WP_Query(array(
+	$property_exist = new WP_Query(
+		array(
 
-		'post_type' => 'property',
+			'post_type' => 'property',
 
-		'post_status'  => 'publish',
+			'post_status' => 'publish',
 
-		'meta_query' => array(
+			'meta_query' => array(
 
-			array(
+				array(
 
-				'key'   => 'apimo_id',
+					'key' => 'apimo_id',
 
-				'value' => $property->id
+					'value' => $property->id
+
+				)
 
 			)
 
 		)
-
-	));
+	);
 
 
 
@@ -292,7 +292,7 @@ function apimo_add_new_property($property_id)
 
 		if ($commentdata->language == $lang) {
 
-			$commentdata_lang =     $commentdata;
+			$commentdata_lang = $commentdata;
 
 			//   print_r($commentdata_lang);
 
@@ -305,34 +305,38 @@ function apimo_add_new_property($property_id)
 
 
 
-		$id = wp_insert_post(array(
+		$id = wp_insert_post(
+			array(
 
-			'post_title'   => !empty($commentdata_lang) ? $commentdata_lang->title : $property->id,
+				'post_title' => !empty($commentdata_lang) ? $commentdata_lang->title : $property->id,
 
-			'post_type' => 'property',
+				'post_type' => 'property',
 
-			'post_status'  => 'publish',
+				'post_status' => 'publish',
 
 
 
-		));
+			)
+		);
 	} else {
 
 		$id = $property_exist->posts[0]->ID;
 
-		wp_update_post(array(
+		wp_update_post(
+			array(
 
-			'ID' => $id,
+				'ID' => $id,
 
-			'post_title'   =>  !empty($commentdata_lang) ? $commentdata_lang->title : $property->id,
+				'post_title' => !empty($commentdata_lang) ? $commentdata_lang->title : $property->id,
 
-			'post_type' => 'property',
+				'post_type' => 'property',
 
-			'post_status'  => 'publish',
+				'post_status' => 'publish',
 
 
 
-		));
+			)
+		);
 	}
 
 
@@ -375,7 +379,7 @@ function apimo_add_new_property($property_id)
 
 	$city = wp_set_object_terms($id, $property->city->name, 'city', false);
 
-	
+
 
 	update_term_meta($city[0], 'apimo_term_id', $property->city->id);
 	update_term_meta($city[0], 'zip_code', $property->city->zipcode);
@@ -495,7 +499,7 @@ function apimo_add_new_property($property_id)
 
 	);
 
-	$availability_term  = get_terms($availability_args);
+	$availability_term = get_terms($availability_args);
 
 	wp_set_object_terms($id, $availability_term[0]->term_id, 'apimo_availability', true);
 
@@ -858,388 +862,203 @@ function apimo_add_new_property($property_id)
 			array(
 
 				'key' => 'apimo_term_id',
-
-				'value' => $property->heating->access,
-
-			)
-
-		)
-
-	);
-
-
-
-	$heating_access = get_terms($heating_access_args);
-
-	wp_set_object_terms($id, $heating_access[0]->term_id, 'apimo_heating_access', true);
-
-
-
-	$heating_device_args = array(
-
-		'taxonomy' => 'apimo_heating_device',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->heating->devices,
-
-				'compare' => 'IN'
-
-			)
-
-		)
-
-	);
-
-
-
-	$heating_device = get_terms($heating_device_args);
-
-	wp_set_object_terms($id, array_map(function ($term) {
-
-		return $term->term_id;
-	}, $heating_device), 'apimo_heating_device', true);
-
-
-
-	$water_hot_device_args = array(
-
-		'taxonomy' => 'apimo_water_hot_device',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->water->hot_device,
-
-			)
-
-		)
-
-	);
-
-
-
-	$water_hot_device = get_terms($water_hot_device_args);
-
-	wp_set_object_terms($id, $water_hot_device[0]->term_id, 'apimo_water_hot_device', true);
-
-
-
-	$water_hot_access_args = array(
-
-		'taxonomy' => 'apimo_water_hot_access',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->water->hot_access,
-
-			)
-
-		)
-
-	);
-
-
-
-	$water_hot_access = get_terms($water_hot_access_args);
-
-	wp_set_object_terms($id, $water_hot_access[0]->term_id, 'apimo_water_hot_access', true);
-
-
-
-	$water_waste_args = array(
-
-		'taxonomy' => 'apimo_water_waste',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->water->waste,
-
-			)
-
-		)
-
-	);
-
-
-
-	$water_waste = get_terms($water_waste_args);
-
-	wp_set_object_terms($id, $water_waste[0]->term_id, 'apimo_water_waste', true);
-
-
-
-	$property_condition_args = array(
-
-		'taxonomy' => 'apimo_property_condition',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->condition,
-
-			)
-
-		)
-
-	);
-
-
-
-	$property_condition = get_terms($property_condition_args);
-
-	wp_set_object_terms($id, $property_condition[0]->term_id, 'apimo_property_condition', true);
-
-
-
-
-
-	$property_standing_args = array(
-
-		'taxonomy' => 'apimo_property_standing',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->standing,
-
-			)
-
-		)
-
-	);
-
-
-
-	$property_standing = get_terms($property_standing_args);
-
-	wp_set_object_terms($id, $property_standing[0]->term_id, 'apimo_property_standing', true);
-
-
-
-	$repository_tags = array(
-
-		'taxonomy' => 'repository_tags',
-
-		'hide_empty' => false,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_term_id',
-
-				'value' => $property->tags,
-
-				'compare' => 'IN'
-
-			)
-
-		)
-
-	);
-
-
-
-	$repository_tag = get_terms($repository_tags);
-
-	wp_set_object_terms($id, array_map(function ($term) {
-
-		return $term->term_id;
-	}, $repository_tag), 'repository_tags', true);
-
-
-
-
-
-	wp_set_object_terms($id, array_map(function ($term) {
-
-		return $term->id;
-	}, $property->tags_customized), 'customised_tags', true);
-
-
-
-
-
-	$timeout_seconds = 50;
-
-	$gallery_images = array();
-
-	foreach ($property->pictures as $image) {
-
-		$image_exist = get_posts(array(
-
-			'post_type' => 'attachment',
-
-			'meta_query' => array(
-
-				array(
-
-					'key'   => 'apimo_image_id',
-
-					'value' => $image->id
-
-				)
-
-			)
-
-		));
-
-
-
-		if (empty($image_exist)) {
-
-			$temp_file = download_url($image->url, $timeout_seconds);
-
-			if (!is_wp_error($temp_file)) {
-
-				$file = array(
-
-					'name'     => basename($image->url), // ex: wp-header-logo.png
-
-					'type'     => 'image/jpg',
-
-					'tmp_name' => $temp_file,
-
-					'error'    => 0,
-
-					'size'     => filesize($temp_file),
-
+				// Set heating access
+				$heating_access_args = array(
+					'taxonomy' => 'apimo_heating_access',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->heating->access,
+						)
+					)
 				);
+				$heating_access = get_terms($heating_access_args);
+				wp_set_object_terms($id, $heating_access[0]->term_id, 'apimo_heating_access', true);
 
-				$image_id = media_handle_sideload($file, 0);
+				// Set heating device
+				$heating_device_args = array(
+					'taxonomy' => 'apimo_heating_device',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->heating->devices,
+							'compare' => 'IN'
+						)
+					)
+				);
+				$heating_device = get_terms($heating_device_args);
+				wp_set_object_terms($id, array_map(function ($term) {
+					return $term->term_id;
+				}, $heating_device), 'apimo_heating_device', true);
 
-				$image_url =  wp_get_attachment_image_url($image_id, 'full');
+				// Set hot water device
+				$water_hot_device_args = array(
+					'taxonomy' => 'apimo_water_hot_device',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->water->hot_device,
+						)
+					)
+				);
+				$water_hot_device = get_terms($water_hot_device_args);
+				wp_set_object_terms($id, $water_hot_device[0]->term_id, 'apimo_water_hot_device', true);
 
-				update_post_meta($image_id, 'apimo_image_id', $image->id);
+				// Set hot water access
+				$water_hot_access_args = array(
+					'taxonomy' => 'apimo_water_hot_access',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->water->hot_access,
+						)
+					)
+				);
+				$water_hot_access = get_terms($water_hot_access_args);
+				wp_set_object_terms($id, $water_hot_access[0]->term_id, 'apimo_water_hot_access', true);
+
+				// Set water waste
+				$water_waste_args = array(
+					'taxonomy' => 'apimo_water_waste',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->water->waste,
+						)
+					)
+				);
+				$water_waste = get_terms($water_waste_args);
+				wp_set_object_terms($id, $water_waste[0]->term_id, 'apimo_water_waste', true);
+
+				// Set property condition
+				$property_condition_args = array(
+					'taxonomy' => 'apimo_property_condition',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->condition,
+						)
+					)
+				);
+				$property_condition = get_terms($property_condition_args);
+				wp_set_object_terms($id, $property_condition[0]->term_id, 'apimo_property_condition', true);
+
+				// Set property standing
+				$property_standing_args = array(
+					'taxonomy' => 'apimo_property_standing',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->standing,
+						)
+					)
+				);
+				$property_standing = get_terms($property_standing_args);
+				wp_set_object_terms($id, $property_standing[0]->term_id, 'apimo_property_standing', true);
+
+				// Set repository tags
+				$repository_tags = array(
+					'taxonomy' => 'repository_tags',
+					'hide_empty' => false,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_term_id',
+							'value' => $property->tags,
+							'compare' => 'IN'
+						)
+					)
+				);
+				$repository_tag = get_terms($repository_tags);
+				wp_set_object_terms($id, array_map(function ($term) {
+					return $term->term_id;
+				}, $repository_tag), 'repository_tags', true);
+
+				// Set customized tags
+				wp_set_object_terms($id, array_map(function ($term) {
+					return $term->id;
+				}, $property->tags_customized), 'customised_tags', true);
+
+				// Set gallery images
+				$timeout_seconds = 50;
+				$gallery_images = array();
+				foreach ($property->pictures as $image) {
+					$image_exist = get_posts(
+						array(
+							'post_type' => 'attachment',
+							'meta_query' => array(
+								array(
+									'key' => 'apimo_image_id',
+									'value' => $image->id
+								)
+							)
+						)
+					);
+					if (empty($image_exist)) {
+						$temp_file = download_url($image->url, $timeout_seconds);
+						if (!is_wp_error($temp_file)) {
+							$file = array(
+								'name' => basename($image->url),
+								'type' => 'image/jpg',
+								'tmp_name' => $temp_file,
+								'error' => 0,
+								'size' => filesize($temp_file),
+							);
+							$image_id = media_handle_sideload($file, 0);
+							$image_url = wp_get_attachment_image_url($image_id, 'full');
+							update_post_meta($image_id, 'apimo_image_id', $image->id);
+						}
+					} else {
+						$image_id = $image_exist[0]->ID;
+						$image_url = wp_get_attachment_image_url($image_id, 'full');
+					}
+					if ($image->rank == 1) {
+						set_post_thumbnail($id, $image_id);
+					} else {
+						$gallery_images[] = $image_url;
+					}
+				}
+				update_post_meta($id, 'apimo_gallery_images', $gallery_images);
+
+				// Delete post
+				$property_ids = get_option("apimo_add_property_by_api");
+				$args = array(
+					'post_type' => 'property',
+					'post_status' => 'publish',
+					'posts_per_page' => -1,
+					'meta_query' => array(
+						array(
+							'key' => 'apimo_id',
+							'value' => $property_ids,
+							'compare' => 'IN'
+						),
+					),
+				);
+				$import_by_api = new WP_Query($args);
+				$post_ids = wp_list_pluck($import_by_api->posts, 'ID');
+				$menual_upload = new WP_Query(
+					array(
+						'post_type' => 'property',
+						'post_status' => 'any',
+						'post__not_in' => $post_ids,
+						'posts_per_page' => -1,
+					)
+				);
+				if ($menual_upload->have_posts()) {
+					while ($menual_upload->have_posts()) {
+						$menual_upload->the_post();
+						wp_delete_post(get_the_ID());
+					}
+				}
 			}
-		} else {
-
-			$image_id = $image_exist[0]->ID;
-
-			$image_url =  wp_get_attachment_image_url($image_id, 'full');
-		}
-
-
-
-		// echo '<pre>';
-
-		//  print_r($image_id);
-
-		//  print_r('->>>>>>>>>>>>>>');
-
-		//  print_r($image_url);
-
-		//  echo '</pre>';
-
-
-
-		if ($image->rank == 1) {
-
-			set_post_thumbnail($id, $image_id);
-		} else {
-
-			$gallery_images[] = $image_url;
-		}
-	}
-
-	update_post_meta($id, 'apimo_gallery_images', $gallery_images);
-
-
-
-	//----------------------------------------------------------DELETE POST-----------------------------------------------------------------------//
-
-	$property_ids = get_option("apimo_add_property_by_api");
-
-
-
-	$args = array(
-
-		'post_type' => 'property',  //Set your post_type
-
-		'post_status' => 'publish',  //Set your post_status
-
-		'posts_per_page' => -1,
-
-		'meta_query' => array(
-
-			array(
-
-				'key' => 'apimo_id',
-
-				'value' => $property_ids,
-
-				'compare' => 'IN'
-
-			),
-
-		),
-
+		)
 	);
-
-	$import_by_api = new WP_Query($args);
-
-	$post_ids = wp_list_pluck($import_by_api->posts, 'ID');
-
-
-
-	$menual_upload = new WP_Query(array(
-
-		'post_type' => 'property',
-
-		'post_status' => 'any',
-
-		'post__not_in' =>  $post_ids,
-
-		'posts_per_page' => -1,
-
-	));
-
-
-
-	if ($menual_upload->have_posts()) {
-
-		while ($menual_upload->have_posts()) {
-
-			$menual_upload->the_post();
-
-			wp_delete_post(get_the_ID());
-		}
-	}
-
-	//----------------------------------------------------------DELETE POST-----------------------------------------------------------------------//
-
 }
+
+add_action('apimo_import_single_property', 'apimo_add_new_property');
