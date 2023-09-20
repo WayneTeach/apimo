@@ -862,7 +862,6 @@ function apimo_add_new_property($property_id)
 			array(
 
 				'key' => 'apimo_term_id',
-				// Set heating access
 				$heating_access_args = array(
 					'taxonomy' => 'apimo_heating_access',
 					'hide_empty' => false,
@@ -873,10 +872,10 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$heating_access = get_terms($heating_access_args);
-				wp_set_object_terms($id, $heating_access[0]->term_id, 'apimo_heating_access', true);
 
-				// Set heating device
+				$heating_access = get_term_by('meta_value', $property->heating->access, 'apimo_heating_access');
+				wp_set_object_terms($id, $heating_access->term_id, 'apimo_heating_access', true);
+
 				$heating_device_args = array(
 					'taxonomy' => 'apimo_heating_device',
 					'hide_empty' => false,
@@ -888,12 +887,13 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$heating_device = get_terms($heating_device_args);
-				wp_set_object_terms($id, array_map(function ($term) {
-					return $term->term_id;
-				}, $heating_device), 'apimo_heating_device', true);
 
-				// Set hot water device
+				$heating_devices = get_terms($heating_device_args);
+				$heating_device_ids = array_map(function ($term) {
+					return $term->term_id;
+				}, $heating_devices);
+				wp_set_object_terms($id, $heating_device_ids, 'apimo_heating_device', true);
+
 				$water_hot_device_args = array(
 					'taxonomy' => 'apimo_water_hot_device',
 					'hide_empty' => false,
@@ -904,10 +904,10 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$water_hot_device = get_terms($water_hot_device_args);
-				wp_set_object_terms($id, $water_hot_device[0]->term_id, 'apimo_water_hot_device', true);
 
-				// Set hot water access
+				$water_hot_device = get_term_by('meta_value', $property->water->hot_device, 'apimo_water_hot_device');
+				wp_set_object_terms($id, $water_hot_device->term_id, 'apimo_water_hot_device', true);
+
 				$water_hot_access_args = array(
 					'taxonomy' => 'apimo_water_hot_access',
 					'hide_empty' => false,
@@ -918,10 +918,10 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$water_hot_access = get_terms($water_hot_access_args);
-				wp_set_object_terms($id, $water_hot_access[0]->term_id, 'apimo_water_hot_access', true);
 
-				// Set water waste
+				$water_hot_access = get_term_by('meta_value', $property->water->hot_access, 'apimo_water_hot_access');
+				wp_set_object_terms($id, $water_hot_access->term_id, 'apimo_water_hot_access', true);
+
 				$water_waste_args = array(
 					'taxonomy' => 'apimo_water_waste',
 					'hide_empty' => false,
@@ -932,10 +932,10 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$water_waste = get_terms($water_waste_args);
-				wp_set_object_terms($id, $water_waste[0]->term_id, 'apimo_water_waste', true);
 
-				// Set property condition
+				$water_waste = get_term_by('meta_value', $property->water->waste, 'apimo_water_waste');
+				wp_set_object_terms($id, $water_waste->term_id, 'apimo_water_waste', true);
+
 				$property_condition_args = array(
 					'taxonomy' => 'apimo_property_condition',
 					'hide_empty' => false,
@@ -946,10 +946,10 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$property_condition = get_terms($property_condition_args);
-				wp_set_object_terms($id, $property_condition[0]->term_id, 'apimo_property_condition', true);
 
-				// Set property standing
+				$property_condition = get_term_by('meta_value', $property->condition, 'apimo_property_condition');
+				wp_set_object_terms($id, $property_condition->term_id, 'apimo_property_condition', true);
+
 				$property_standing_args = array(
 					'taxonomy' => 'apimo_property_standing',
 					'hide_empty' => false,
@@ -960,11 +960,11 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$property_standing = get_terms($property_standing_args);
-				wp_set_object_terms($id, $property_standing[0]->term_id, 'apimo_property_standing', true);
 
-				// Set repository tags
-				$repository_tags = array(
+				$property_standing = get_term_by('meta_value', $property->standing, 'apimo_property_standing');
+				wp_set_object_terms($id, $property_standing->term_id, 'apimo_property_standing', true);
+
+				$repository_tags_args = array(
 					'taxonomy' => 'repository_tags',
 					'hide_empty' => false,
 					'meta_query' => array(
@@ -975,19 +975,21 @@ function apimo_add_new_property($property_id)
 						)
 					)
 				);
-				$repository_tag = get_terms($repository_tags);
-				wp_set_object_terms($id, array_map(function ($term) {
+
+				$repository_tags = get_terms($repository_tags_args);
+				$repository_tag_ids = array_map(function ($term) {
 					return $term->term_id;
-				}, $repository_tag), 'repository_tags', true);
+				}, $repository_tags);
+				wp_set_object_terms($id, $repository_tag_ids, 'repository_tags', true);
 
-				// Set customized tags
-				wp_set_object_terms($id, array_map(function ($term) {
+				$customised_tag_ids = array_map(function ($term) {
 					return $term->id;
-				}, $property->tags_customized), 'customised_tags', true);
+				}, $property->tags_customized);
+				update_post_meta($id, 'customised_tags', $customised_tag_ids);
 
-				// Set gallery images
 				$timeout_seconds = 50;
 				$gallery_images = array();
+
 				foreach ($property->pictures as $image) {
 					$image_exist = get_posts(
 						array(
@@ -1000,8 +1002,10 @@ function apimo_add_new_property($property_id)
 							)
 						)
 					);
+
 					if (empty($image_exist)) {
 						$temp_file = download_url($image->url, $timeout_seconds);
+
 						if (!is_wp_error($temp_file)) {
 							$file = array(
 								'name' => basename($image->url),
@@ -1010,6 +1014,7 @@ function apimo_add_new_property($property_id)
 								'error' => 0,
 								'size' => filesize($temp_file),
 							);
+
 							$image_id = media_handle_sideload($file, 0);
 							$image_url = wp_get_attachment_image_url($image_id, 'full');
 							update_post_meta($image_id, 'apimo_image_id', $image->id);
@@ -1018,16 +1023,20 @@ function apimo_add_new_property($property_id)
 						$image_id = $image_exist[0]->ID;
 						$image_url = wp_get_attachment_image_url($image_id, 'full');
 					}
+
 					if ($image->rank == 1) {
 						set_post_thumbnail($id, $image_id);
 					} else {
 						$gallery_images[] = $image_url;
 					}
 				}
+
 				update_post_meta($id, 'apimo_gallery_images', $gallery_images);
 
-				// Delete post
+				//----------------------------------------------------------DELETE POST-----------------------------------------------------------------------//
+
 				$property_ids = get_option("apimo_add_property_by_api");
+
 				$args = array(
 					'post_type' => 'property',
 					'post_status' => 'publish',
@@ -1040,8 +1049,10 @@ function apimo_add_new_property($property_id)
 						),
 					),
 				);
+
 				$import_by_api = new WP_Query($args);
 				$post_ids = wp_list_pluck($import_by_api->posts, 'ID');
+
 				$menual_upload = new WP_Query(
 					array(
 						'post_type' => 'property',
@@ -1050,15 +1061,12 @@ function apimo_add_new_property($property_id)
 						'posts_per_page' => -1,
 					)
 				);
+
 				if ($menual_upload->have_posts()) {
 					while ($menual_upload->have_posts()) {
 						$menual_upload->the_post();
 						wp_delete_post(get_the_ID());
 					}
 				}
-			}
-		)
-	);
-}
 
-add_action('apimo_import_single_property', 'apimo_add_new_property');
+				//----------------------------------------------------------DELETE POST-----------------------------------------------------------------------//
